@@ -1,7 +1,8 @@
 import { useEffect, useRef } from "react";
+import "./AboutSection.css";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import "./AboutSection.css";
+import Image from "../../../assets/images/hero.png";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -181,7 +182,8 @@ const AboutSection = () => {
           <div className="home-about-image-col">
             <div className="home-about-image-wrapper">
               <img
-                src="https://testca.xyz/wp-content/uploads/2026/09/e7402209df87b123a6b1213843d0de44.jpg"
+                // src="https://testca.xyz/wp-content/uploads/2026/09/e7402209df87b123a6b1213843d0de44.jpg"
+                src={Image}
                 alt="Dr. Gobind Rai Garg"
                 className="home-about-image"
               />
