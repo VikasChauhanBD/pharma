@@ -56,6 +56,20 @@ function HeroSection() {
 
   return (
     <section className="hero-container" ref={heroRef} id="home">
+      <video
+        className="hero-background-video"
+        autoPlay
+        muted
+        loop
+        playsInline
+        preload="auto"
+      >
+        <source
+          src="https://cdn.dribbble.com/userupload/49117125/file/7ad9bf57473f6fad669b1132870e1eb4.mp4"
+          type="video/mp4"
+        />
+      </video>
+
       <h1 className="hero-heading" ref={headingRef}>
         Welcome To Pharmacology
       </h1>
