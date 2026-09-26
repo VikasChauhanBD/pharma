@@ -324,7 +324,9 @@ function PrivacyPolicy() {
         If the Services allow account creation, you may request deletion of your
         Pharma account and associated personal data through the in-app account
         deletion pathway and through our web-based deletion request page at{" "}
-        <a href="/delete-account">https://Pharma.com/delete-account.</a>
+        <a href="/delete-account">
+          https://pharmacologybydrgrg.com/delete-account.
+        </a>
         <br />
         <br />
         Deleting your account will permanently remove your access to the

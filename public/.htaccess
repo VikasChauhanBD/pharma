@@ -1,8 +1,8 @@
 <IfModule mod_rewrite.c>
 RewriteEngine On
 # Redirect www to non-www
-RewriteCond %{HTTP_HOST} ^www\.pharmacologybydrgrg.com\.com$ [NC]
-RewriteRule ^ https://pharmacologybydrgrg.com.com%{REQUEST_URI} [L,R=301]
+RewriteCond %{HTTP_HOST} ^www\.pharmacologybydrgrg\.com$ [NC]
+RewriteRule ^ https://pharmacologybydrgrg.com%{REQUEST_URI} [L,R=301]
 # React SPA routing
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
@@ -11,7 +11,7 @@ RewriteRule . /index.html [L]
 
 <IfModule mod_headers.c>
     # Allow Salesforce Embedded Messaging iframe
-    Header always set Content-Security-Policy "frame-ancestors 'self' https://pharmacologybydrgrg.com.my.site.com"
+    Header always set Content-Security-Policy "frame-ancestors 'self' https://pharmacologybydrgrg.my.site.com"
     # Remove blocking header if present
     Header always unset X-Frame-Options
 </IfModule>
