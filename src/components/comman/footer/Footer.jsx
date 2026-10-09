@@ -55,7 +55,7 @@ function Footer() {
             <a href="#why-we">Why We</a>
             <a href="#contact">Contact Us</a>
             <a href="/faqs">Faq's</a>
-            <a href="/video-troubleshooting">Video Troubleshooting</a>
+            <a href="/troubleshooting">Video Troubleshooting</a>
           </div>
 
           {/* Policies */}

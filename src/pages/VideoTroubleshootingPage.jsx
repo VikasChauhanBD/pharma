@@ -10,7 +10,7 @@ function VideoTroubleshootingPage() {
         minHeight: "100vh",
       }}
     >
-      <h1>Video Troubleshooting</h1>
+      <h1>Troubleshooting</h1>
     </div>
   );
 }
