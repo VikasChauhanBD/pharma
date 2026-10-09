@@ -6,6 +6,8 @@ import Navbar from "./components/comman/navbar/Navbar";
 import Footer from "./components/comman/footer/Footer";
 
 import HeroPage from "./pages/HeroPage";
+import FaqsPage from "./pages/FaqsPage";
+import VideoTroubleshootingPage from "./pages/VideoTroubleshootingPage";
 
 import PrivacyPolicyPage from "./pages/PrivacyPolicyPage";
 import TermsAndConditions from "./pages/TermsAndConditionsPage";
@@ -25,6 +27,11 @@ function App() {
 
         <Routes>
           <Route path="/" element={<HeroPage />} />
+          <Route path="/faqs" element={<FaqsPage />} />
+          <Route
+            path="/video-troubleshooting"
+            element={<VideoTroubleshootingPage />}
+          />
 
           {/* ----------- Policy Pages ---------------- */}
 
