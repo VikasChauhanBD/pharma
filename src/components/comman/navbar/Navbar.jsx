@@ -120,7 +120,7 @@ function Navbar() {
           <a href="/">Home</a>
           <Link to="/about">About</Link>
           <a href="#why-we">Why We</a>
-          <a href="#contact">Contact Us</a>
+          <Link to="/contact">Contact Us</Link>
         </div>
 
         {/* Hamburger */}
@@ -158,9 +158,9 @@ function Navbar() {
           </div>
 
           <div ref={(el) => (menuItemsRef.current[3] = el)}>
-            <a href="#contact" onClick={closeMenu}>
+            <Link to="/contact" onClick={closeMenu}>
               Contact Us
-            </a>
+            </Link>
           </div>
         </div>
       </div>

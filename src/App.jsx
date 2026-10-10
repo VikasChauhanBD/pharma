@@ -6,6 +6,7 @@ import HeroPage from "./pages/HeroPage";
 import FaqsPage from "./pages/FaqsPage";
 import VideoTroubleshootingPage from "./pages/VideoTroubleshootingPage";
 import AboutPage from "./pages/AboutPage";
+import ContactPage from "./pages/ContactPage";
 import PrivacyPolicyPage from "./pages/PrivacyPolicyPage";
 import TermsAndConditions from "./pages/TermsAndConditionsPage";
 import CancellationPolicyPage from "./pages/CancellationPolicyPage";
@@ -22,6 +23,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HeroPage />} />
           <Route path="/about" element={<AboutPage />} />
+          <Route path="/contact" element={<ContactPage />} />
           <Route path="/faqs" element={<FaqsPage />} />
           <Route
             path="/troubleshooting"
