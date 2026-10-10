@@ -3,16 +3,13 @@ import { Link } from "react-router-dom";
 import "./Navbar.css";
 import Logo from "../../../assets/images/grg.jpeg";
 import gsap from "gsap";
-
 function Navbar() {
   const navbarRef = useRef(null);
   const logoRef = useRef(null);
   const desktopMenuRef = useRef(null);
   const mobileMenuRef = useRef(null);
   const menuItemsRef = useRef([]);
-
   const [menuOpen, setMenuOpen] = useState(false);
-
   useEffect(() => {
     const ctx = gsap.context(() => {
       gsap.fromTo(
@@ -28,7 +25,6 @@ function Navbar() {
           ease: "power3.out",
         },
       );
-
       gsap.fromTo(
         logoRef.current,
         {
@@ -43,7 +39,6 @@ function Navbar() {
           ease: "back.out(1.7)",
         },
       );
-
       gsap.fromTo(
         desktopMenuRef.current,
         {
@@ -59,14 +54,11 @@ function Navbar() {
         },
       );
     }, navbarRef);
-
     return () => ctx.revert();
   }, []);
-
   // Mobile menu animation
   useEffect(() => {
     if (!mobileMenuRef.current) return;
-
     if (menuOpen) {
       gsap.to(mobileMenuRef.current, {
         height: "auto",
@@ -74,7 +66,6 @@ function Navbar() {
         duration: 0.45,
         ease: "power3.out",
       });
-
       gsap.fromTo(
         menuItemsRef.current,
         {
@@ -99,11 +90,9 @@ function Navbar() {
       });
     }
   }, [menuOpen]);
-
   const closeMenu = () => {
     setMenuOpen(false);
   };
-
   return (
     <nav className="navbar-container" ref={navbarRef}>
       {/* Navbar Top */}
@@ -114,15 +103,12 @@ function Navbar() {
             <img src={Logo} alt="GRG Logo" />
           </a>
         </div>
-
         {/* Desktop Menu */}
         <div className="navbar-content navbar-desktop" ref={desktopMenuRef}>
           <a href="/">Home</a>
           <Link to="/about">About</Link>
-          <a href="#why-we">Why We</a>
           <Link to="/contact">Contact Us</Link>
         </div>
-
         {/* Hamburger */}
         <button
           className={`navbar-hamburger ${menuOpen ? "active" : ""}`}
@@ -135,7 +121,6 @@ function Navbar() {
           <span></span>
         </button>
       </div>
-
       {/* Mobile Menu - OUTSIDE navbar-inner */}
       <div className="navbar-mobile-wrapper" ref={mobileMenuRef}>
         <div className="navbar-mobile">
@@ -144,19 +129,16 @@ function Navbar() {
               Home
             </a>
           </div>
-
           <div ref={(el) => (menuItemsRef.current[1] = el)}>
             <Link to="/about" onClick={closeMenu}>
               About
             </Link>
           </div>
-
           <div ref={(el) => (menuItemsRef.current[2] = el)}>
             <a href="#why-we" onClick={closeMenu}>
               Why We
             </a>
           </div>
-
           <div ref={(el) => (menuItemsRef.current[3] = el)}>
             <Link to="/contact" onClick={closeMenu}>
               Contact Us
@@ -167,5 +149,4 @@ function Navbar() {
     </nav>
   );
 }
-
 export default Navbar;

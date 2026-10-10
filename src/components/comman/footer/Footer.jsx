@@ -43,7 +43,6 @@ function Footer() {
             <h3>Explore</h3>
             <a href="/">Home</a>
             <Link to="/about">About</Link>
-            <a href="#why-we">Why We</a>
             <Link to="/contact">Contact Us</Link>
             <a href="/faqs">Faq's</a>
             <a href="/troubleshooting">Video Troubleshooting</a>
