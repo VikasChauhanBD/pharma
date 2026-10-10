@@ -1,40 +1,33 @@
-import { useEffect, useState } from "react";
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
 import Navbar from "./components/comman/navbar/Navbar";
 import Footer from "./components/comman/footer/Footer";
-
 import HeroPage from "./pages/HeroPage";
 import FaqsPage from "./pages/FaqsPage";
 import VideoTroubleshootingPage from "./pages/VideoTroubleshootingPage";
-
+import AboutPage from "./pages/AboutPage";
 import PrivacyPolicyPage from "./pages/PrivacyPolicyPage";
 import TermsAndConditions from "./pages/TermsAndConditionsPage";
 import CancellationPolicyPage from "./pages/CancellationPolicyPage";
 import DevicePolicyPage from "./pages/DevicePolicyPage";
 import FairUsagePolicyPage from "./pages/FairUsagePolicyPage";
 import ShippingAndDeliveryPolicyPage from "./pages/ShippingAndDeliveryPolicyPage";
-
 import ScrollToTop from "./hooks/ScrollToTop";
-
 function App() {
   return (
     <>
       <BrowserRouter>
         <Navbar />
         <ScrollToTop />
-
         <Routes>
           <Route path="/" element={<HeroPage />} />
+          <Route path="/about" element={<AboutPage />} />
           <Route path="/faqs" element={<FaqsPage />} />
           <Route
             path="/troubleshooting"
             element={<VideoTroubleshootingPage />}
           />
-
           {/* ----------- Policy Pages ---------------- */}
-
           <Route path="/fair-usage-policy" element={<FairUsagePolicyPage />} />
           <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
           <Route path="/terms" element={<TermsAndConditions />} />
@@ -48,11 +41,9 @@ function App() {
             element={<ShippingAndDeliveryPolicyPage />}
           />
         </Routes>
-
         <Footer />
       </BrowserRouter>
     </>
   );
 }
-
 export default App;

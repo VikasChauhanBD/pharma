@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
+import { Link } from "react-router-dom";
 import "./Navbar.css";
 import Logo from "../../../assets/images/grg.jpeg";
 import gsap from "gsap";
@@ -117,7 +118,7 @@ function Navbar() {
         {/* Desktop Menu */}
         <div className="navbar-content navbar-desktop" ref={desktopMenuRef}>
           <a href="/">Home</a>
-          <a href="#about">About</a>
+          <Link to="/about">About</Link>
           <a href="#why-we">Why We</a>
           <a href="#contact">Contact Us</a>
         </div>
@@ -145,9 +146,9 @@ function Navbar() {
           </div>
 
           <div ref={(el) => (menuItemsRef.current[1] = el)}>
-            <a href="#about" onClick={closeMenu}>
+            <Link to="/about" onClick={closeMenu}>
               About
-            </a>
+            </Link>
           </div>
 
           <div ref={(el) => (menuItemsRef.current[2] = el)}>
