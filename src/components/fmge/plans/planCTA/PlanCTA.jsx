@@ -16,7 +16,7 @@ const PlanCTA = () => {
           // href="#"
           className="fmge-plan-cta-button"
         >
-          Choose Your Plan
+          Pre-Book Now
         </a>
       </div>
     </section>

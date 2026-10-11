@@ -16,7 +16,7 @@ const PlanCTA = () => {
           href="https://learn.pharmacologybydrgrg.com/login"
           className="pg-plan-cta-button"
         >
-          Choose Your Plan
+          Pre-Book Now
         </a>
       </div>
     </section>
