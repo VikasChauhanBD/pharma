@@ -9,11 +9,13 @@ import GrgWaySection from "../components/fmge/home/grgWaySection/GrgWaySection";
 import LearningPathSection from "../components/fmge/home/learningPathSection/LearningPathSection";
 import ExperienceTeaching from "../components/fmge/home/experienceTeaching/ExperienceTeaching";
 import ThePromise from "../components/fmge/home/thePromise/ThePromise";
+import PharmacologyHeader from "../components/fmge/home/pharmacologyHeader/PharmacologyHeader";
 
 function FmgeHomePage() {
   return (
     <div className="fmge-home">
-      <VideoHero />
+      {/* <VideoHero /> */}
+      <PharmacologyHeader />
       <WhySection />
       <PlatformSection />
       <GrgWaySection />

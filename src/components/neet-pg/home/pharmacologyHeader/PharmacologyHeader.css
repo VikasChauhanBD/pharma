@@ -1,0 +1,347 @@
+.pg-pharma-header {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  box-sizing: border-box;
+  color: #ffffff;
+  background-color: #0b1f3a;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.pg-pharma-header h1,
+.pg-pharma-header h2,
+.pg-pharma-header p {
+  margin: 0;
+  color: #ffffff;
+}
+
+.pg-pharma-header-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.25);
+  pointer-events: none;
+}
+
+/* ---------- Intro (first content) ---------- */
+
+.pg-pharma-intro {
+  position: relative;
+  z-index: 1;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 24px;
+  text-align: center;
+}
+
+.pg-pharma-intro-enter {
+  animation: pharmaFadeIn 0.8s ease forwards;
+}
+
+.pg-pharma-intro-exit {
+  animation: pharmaFadeOut 0.7s ease forwards;
+}
+
+.pg-pharma-intro-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+}
+
+.pg-pharma-welcome {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.pg-pharma-intro-title {
+  font-size: 64px;
+  font-weight: 800;
+  line-height: 1.1;
+}
+
+.pg-pharma-exams {
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.pg-pharma-powered {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.3px;
+}
+
+.pg-pharma-intro-image {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: block;
+  width: 100%;
+  max-width: 760px;
+  max-height: 40vh;
+  object-fit: contain;
+  object-position: bottom center;
+}
+
+/* ---------- Main (second content) ---------- */
+
+.pg-pharma-main {
+  position: relative;
+  z-index: 1;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 60px 64px 0;
+}
+
+.pg-pharma-main-text {
+  flex: 1 1 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  opacity: 0;
+  animation: pharmaSlideFromLeft 0.9s ease forwards;
+}
+
+.pg-pharma-main-exams {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.pg-pharma-main-title {
+  font-size: 28px;
+  text-transform: uppercase;
+  background: #ffffff;
+  background-size: 300% 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  animation: gradient-flow 6s linear infinite;
+}
+
+.pg-pharma-tagline {
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.pg-pharma-desc {
+  font-size: 20px;
+  line-height: 1.4;
+  letter-spacing: 1.2px;
+  margin: 1.5rem 0;
+}
+
+.pg-pharma-cta-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.pg-pharma-btn {
+  display: inline-block;
+  text-decoration: none;
+  padding: 12px 20px;
+  border: 1px solid #ff9b6b;
+  border-radius: 10px;
+  background: #ff9b6b;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+  transition:
+    background 0.3s ease,
+    color 0.3s ease,
+    transform 0.3s ease;
+}
+
+.pg-pharma-btn:hover {
+  background: transparent;
+  color: #ff9b6b;
+}
+
+.pg-pharma-main-image-wrap {
+  flex: 1 1 50%;
+  align-self: flex-end;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  opacity: 0;
+  animation: pharmaSlideFromRight 0.9s ease forwards;
+}
+
+.pg-pharma-main-image {
+  display: block;
+  width: 100%;
+  max-width: 620px;
+  max-height: 85vh;
+  object-fit: contain;
+}
+
+/* ---------- Animations ---------- */
+
+@keyframes pharmaFadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes pharmaFadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes pharmaSlideFromLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-80px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes pharmaSlideFromRight {
+  from {
+    opacity: 0;
+    transform: translateX(80px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* ---------------------------------- Responsive --------------------------- */
+
+@media (max-width: 1440px) {
+  .pg-pharma-main {
+    padding: 60px 24px 0;
+  }
+
+  .pg-pharma-tagline {
+    font-size: 52px;
+  }
+}
+
+@media (max-width: 900px) {
+  .pg-pharma-intro-title {
+    font-size: 32px;
+  }
+
+  .pg-pharma-main {
+    margin-top: 3.5rem;
+    flex-direction: column;
+    justify-content: center;
+    padding: 48px 24px 0;
+    text-align: center;
+  }
+
+  .pg-pharma-main-image-wrap {
+    align-self: center;
+    justify-content: center;
+  }
+
+  .pg-pharma-main-text {
+    max-width: 100%;
+    align-items: center;
+  }
+
+  .pg-pharma-main-title {
+    font-size: 24px;
+  }
+
+  .pg-pharma-tagline {
+    font-size: 34px;
+  }
+
+  .pg-pharma-desc {
+    font-size: 16px;
+  }
+
+  .pg-pharma-cta-row {
+    justify-content: center;
+  }
+
+  .pg-pharma-main-image {
+    max-height: 50vh;
+  }
+}
+
+@media (max-width: 500px) {
+  .pg-pharma-intro {
+    padding-top: 56px;
+  }
+
+  .pg-pharma-welcome {
+    font-size: 16px;
+  }
+
+  .pg-pharma-intro-title {
+    font-size: 32px;
+  }
+
+  .pg-pharma-main {
+    padding: 48px 12px 0;
+  }
+
+  .pg-pharma-main-exams {
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .pg-pharma-powered {
+    font-size: 16px;
+  }
+
+  .pg-pharma-main-title {
+    font-size: 20px;
+  }
+
+  .pg-pharma-tagline {
+    font-size: 28px;
+  }
+
+  .pg-pharma-btn {
+    width: 100%;
+    font-size: 16px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pg-pharma-intro-enter,
+  .pg-pharma-intro-exit,
+  .pg-pharma-main-text,
+  .pg-pharma-main-image-wrap {
+    animation-duration: 0.01s;
+  }
+}

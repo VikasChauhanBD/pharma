@@ -368,6 +368,11 @@ function FmgePlansShowcase() {
             <p className="fmge-showcase-price-note">
               These exclusive pre-booking prices won’t be available again.{" "}
             </p>
+
+            <p className="fmge-showcase-price-imp">
+              Please note that your plan validity will begin from the app launch
+              date
+            </p>
           </div>
           <div className="fmge-showcase-plan-notices">
             <div className="fmge-showcase-plan-notice is-hardcopy">
@@ -385,6 +390,7 @@ function FmgePlansShowcase() {
               </p>
             </div>
           </div>
+
           <div className="fmge-showcase-price-grid">
             {plans.map((plan) => (
               <article className="fmge-showcase-price-card" key={plan.validity}>
