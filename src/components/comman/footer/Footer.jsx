@@ -1,72 +1,201 @@
 import React, { useEffect, useRef } from "react";
-import { Link } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
+import {
+  FaInstagram,
+  FaFacebookF,
+  FaYoutube,
+  FaWhatsapp,
+} from "react-icons/fa";
 import gsap from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
 import "./Footer.css";
-import Logo from "../../../assets/images/grg.jpeg";
-gsap.registerPlugin(ScrollTrigger);
+
 function Footer() {
   const footerRef = useRef(null);
+  const location = useLocation();
+
+  const isPlansPage =
+    location.pathname === "/course/neet-pg/plans" ||
+    location.pathname === "/course/fmge/plans";
+
+  const isBooksPage =
+    location.pathname === "/course/neet-pg/books" ||
+    location.pathname === "/course/fmge/books";
+
   useEffect(() => {
     const ctx = gsap.context(() => {
-      gsap.from(".footer-animate", {
-        y: 35,
-        opacity: 0,
-        duration: 0.7,
-        stagger: 0.1,
-        ease: "power3.out",
-        scrollTrigger: {
-          trigger: footerRef.current,
-          start: "top 90%",
-          once: true,
+      const tl = gsap.timeline();
+      tl.from(
+        ".footer-title",
+        {
+          y: 60,
+          opacity: 0,
+          duration: 1,
+          ease: "power4.out",
         },
-      });
+        "-=0.45",
+      )
+        .from(
+          ".footer-content-item",
+          {
+            y: 30,
+            opacity: 0,
+            duration: 0.7,
+            stagger: 0.08,
+            ease: "power3.out",
+          },
+          "-=0.5",
+        )
+        .from(
+          ".footer-line",
+          {
+            scaleX: 0,
+            transformOrigin: "left",
+            duration: 0.8,
+            ease: "power3.out",
+          },
+          "-=0.4",
+        );
     }, footerRef);
     return () => ctx.revert();
   }, []);
+
   return (
     <footer className="footer-section" ref={footerRef}>
       <div className="footer-container">
-        <div className="footer-top">
-          {/* Brand */}
-          <div className="footer-brand footer-animate">
-            <a href="#home" className="footer-logo">
-              <img src={Logo} alt="GRG Logo" />
-            </a>
+        <div className="footer-hero">
+          <h2 className="footer-title">
+            {isPlansPage ? (
+              <>
+                YOUR NEXT STEP
+                <br />
+                <span>STARTS HERE.</span>
+              </>
+            ) : isBooksPage ? (
+              <>
+                TURN KNOWLEDGE
+                <br />
+                <span>INTO CONFIDENCE.</span>
+              </>
+            ) : (
+              <>
+                LEARN PHARMACOLOGY.
+                <br />
+                <span>THE GRG WAY.</span>
+              </>
+            )}
+          </h2>
+        </div>
+
+        <div className="footer-main">
+          <div className="footer-brand footer-content-item">
+            <div className="footer-logo-section">
+              <NavLink to="/" className="footer-logo">
+                <img
+                  src="https://cdn.dribbble.com/userupload/49243456/file/6a33c9e10c12af9bd7e77302ab6f4c10.png"
+                  alt="GRG Logo"
+                />
+              </NavLink>
+              <div className="footer-logo-text">
+                <h4>Pharmacology by Dr. GRG</h4>
+                <h6>NEETPG | INICET | FMGE</h6>
+                <h5>Powered by eConceptual</h5>
+              </div>
+            </div>
+
+            <div className="footer-contact-tabs" aria-label="Contact options">
+              <a className="footer-contact" href="tel:+918130036942">
+                <span>Contact Us</span>
+              </a>
+            </div>
+
+            <div className="footer-social">
+              <span>FOLLOW GRG SIR</span>
+              <div className="footer-social-links">
+                <a
+                  href="https://www.instagram.com/pharmacologybydrgrg/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Instagram"
+                >
+                  <FaInstagram />
+                </a>
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Facebook"
+                >
+                  <FaFacebookF />
+                </a>
+                <a
+                  href="https://www.youtube.com/@DrGobindRaiGarg"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="YouTube"
+                >
+                  <FaYoutube />
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="footer-links footer-content-item">
+            <div className="footer-column">
+              <h3>NEET PG</h3>
+              <NavLink to="/course/neet-pg">Home</NavLink>
+              <NavLink to="/about">About Dr. GRG</NavLink>
+              <NavLink to="/course/neet-pg/plans">Plans</NavLink>
+              <NavLink to="/course/neet-pg/books">Books</NavLink>
+            </div>
+
+            <div className="footer-column">
+              <h3>FMGE</h3>
+              <NavLink to="/course/fmge">Home</NavLink>
+              <NavLink to="/about">About Dr. GRG</NavLink>
+              <NavLink to="/course/fmge/plans">Plans</NavLink>
+              <NavLink to="/course/fmge/books">Books</NavLink>
+            </div>
+
+            <div className="footer-column">
+              <h3>Policies</h3>
+              <NavLink to="/privacy-policy">Privacy Policy</NavLink>
+              <NavLink to="/terms">Terms & Conditions</NavLink>
+              <NavLink to="/cancellation-refund">Cancellation & Refund</NavLink>
+              <NavLink to="/shipping-delivery">Shipping & Delivery</NavLink>
+              <NavLink to="/device-policy">Device Policy</NavLink>
+            </div>
+          </div>
+        </div>
+
+        <div className="footer-line"></div>
+
+        <div className="footer-bottom footer-content-item">
+          <div>
             <p>
-              Learn Pharmacology with understanding, clinical connections,
-              stories and memorable mnemonics.
+              &copy; {new Date().getFullYear()} Pharmacology by Dr. GRG. Unit of
+              Conceptual Physiotherapy Pvt.Ltd. Powered by eConceptual
+              <br />
+              All Rights Reserved. Designed & Managed By:{" "}
+              <NavLink to="https://believersdestination.com/" target="_blank">
+                Believers Destination Pvt Ltd
+              </NavLink>
             </p>
           </div>
-          {/* Main Pages */}
-          <div className="footer-column footer-animate">
-            <h3>Explore</h3>
-            <a href="/">Home</a>
-            <Link to="/about">About</Link>
-            <Link to="/contact">Contact Us</Link>
-            <a href="/faqs">Faq's</a>
-            <a href="/troubleshooting">Video Troubleshooting</a>
-          </div>
-          {/* Policies */}
-          <div className="footer-column footer-animate">
-            <h3>Policies</h3>
-            <Link to="/privacy-policy">Privacy Policy</Link>
-            <Link to="/terms">Terms & Conditions</Link>
-            <Link to="/cancellation-refund">Cancellation & Refund</Link>
-            <Link to="/shipping-delivery">Shipping & Delivery</Link>
-            <Link to="/device-policy">Device Policy</Link>
-          </div>
-        </div>
-        <div className="footer-divider"></div>
-        <div className="footer-bottom footer-animate">
-          <p>© {new Date().getFullYear()} GRG. All Rights Reserved.</p>
-          <div className="footer-bottom-links">
-            <Link to="/privacy-policy">Privacy</Link>
-            <Link to="/terms">Terms</Link>
-          </div>
+          <div className="footer-bottom-right"></div>
         </div>
       </div>
+
+      <a
+        href="https://wa.me/918130036944"
+        className="footer-whatsapp-floating"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Chat with us on WhatsApp"
+      >
+        <FaWhatsapp aria-hidden="true" />
+      </a>
     </footer>
   );
 }
+
 export default Footer;

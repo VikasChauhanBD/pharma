@@ -1,16 +1,12 @@
 import React from "react";
+import FaqsHeader from "../components/faqs/faqsHeader/FaqsHeader";
+import Faqs from "../components/faqs/Faqs";
 
 function FaqsPage() {
   return (
-    <div
-      style={{
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        minHeight: "100vh",
-      }}
-    >
-      <h1>FAQ's</h1>
+    <div>
+      {/* <FaqsHeader /> */}
+      <Faqs />
     </div>
   );
 }

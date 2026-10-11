@@ -1,5 +1,6 @@
 .home-about-page {
   width: 100%;
+  background: #ffffff;
 }
 
 .home-about-section {
@@ -8,6 +9,7 @@
 }
 
 .home-about-container {
+  width: 100%;
   max-width: 1400px;
   margin: 0 auto;
   display: grid;
@@ -17,21 +19,21 @@
   padding: 100px 40px;
 }
 
-.home-about-badge {
+/* .home-about-badge {
   display: inline-block;
   margin-bottom: 24px;
   padding: 6px 16px;
   border-radius: 9999px;
-  background: #e8f0fb;
-  color: #1767be;
-  font-size: 14px;
+  background: #e1dace;
+  color: #004d7a;
+  font-size: 16px;
   font-weight: 600;
   letter-spacing: 0.02em;
-}
+} */
 
 .home-about-heading {
   margin: 0;
-  color: #000000;
+  color: #004d7a;
   font-size: 38px;
   font-weight: 700;
   line-height: 1.08;
@@ -43,7 +45,7 @@
 
 .home-about-subheading {
   margin: 16px 0 0;
-  color: #0464de;
+  color: #222222;
   font-size: 28px;
   font-weight: 600;
   line-height: 1.3;
@@ -51,29 +53,33 @@
 
 .home-about-description {
   margin: 24px 0 0;
-  color: #3f3f3f;
+  color: #222222;
   font-size: 18px;
   line-height: 1.6;
 }
 
 .home-about-cta {
   display: inline-block;
-  margin-top: 32px;
-  padding: 14px 32px;
-  border: 1px solid #ff732d;
-  border-radius: 8px;
-  background: #ff732d;
-  color: #ffffff;
-  font-size: 16px;
-  font-weight: 600;
   text-decoration: none;
-  transition: all 0.2s ease;
+  margin-top: 2.5rem;
+  padding: 16px 34px;
+  border: 1px solid #ff9b6b;
+  border-radius: 50px;
+  background: #ff9b6b;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+  transition:
+    background 0.3s ease,
+    color 0.3s ease,
+    transform 0.3s ease;
 }
 
 .home-about-cta:hover {
   background: transparent;
-  color: #ff732d;
-  transform: translateY(-2px);
+  color: #ff9b6b;
 }
 
 .home-about-image-col {
@@ -94,7 +100,7 @@
 
 /* ---------------------------------- Responsive ------------------------- */
 
-@media (max-width: 868px) {
+@media (max-width: 900px) {
   .home-about-container {
     grid-template-columns: 1fr;
     padding: 80px 16px;
@@ -116,5 +122,11 @@
 @media (max-width: 568px) {
   .home-about-container {
     padding: 60px 16px;
+  }
+
+  .home-about-cta {
+    margin-top: 1.5rem;
+    padding: 13px 26px;
+    font-size: 16px;
   }
 }

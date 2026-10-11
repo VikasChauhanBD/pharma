@@ -1,9 +1,14 @@
 import React from "react";
-import IntroSection from "../components/about/IntroSection.jsx";
+import AboutHero from "../components/about/aboutHero/AboutHero";
+import ThePerson from "../components/about/thePerson/ThePerson";
+import AboutTimeline from "../components/about/aboutTimeline/AboutTimeline";
+
 function AboutPage() {
   return (
-    <div className="about-page">
-      <IntroSection showCta={false} showFullContent />
+    <div>
+      <AboutHero />
+      <ThePerson />
+      <AboutTimeline />
     </div>
   );
 }

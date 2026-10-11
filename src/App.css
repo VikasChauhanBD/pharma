@@ -5,20 +5,65 @@
     "Noto Color Emoji", sans-serif;
 }
 
-body {
-  font-family: var(--font-sans);
-}
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* #feb122 - yellow
- 
-#1767be - light blue
- 
-#1d204b - dark blue
- 
-#3f3f3f- grey */
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100%;
+}
+
+body {
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+/* .heading{
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.sub-heading{
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.description{
+  font-size: 18px;
+  font-weight: 400;
+}
+
+@media (max-width: 1300px) {
+
+}
+
+@media (max-width: 900px) {
+  .heading{
+  font-size: 32px;
+}
+
+.sub-heading{
+  font-size: 24px;
+
+}
+
+.description{
+  font-size: 16px;
+}
+}
+
+@media (max-width: 500px) {
+
+} */
+
+/* Primary - #004d7a
+Secondary - #e1dace 
+text - #222222
+cta - #ff9b6b */
