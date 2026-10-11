@@ -239,8 +239,11 @@ const VideoHero = () => {
             </NavLink>
 
             {/* <NavLink to="/course/fmge/plans" className="video-hero-cta"> */}
-            {/* <NavLink to="https://learn.pharmacologybydrgrg.com/login" className="video-hero-cta"> */}
-            <NavLink to="#" className="video-hero-cta">
+            <NavLink
+              to="https://learn.pharmacologybydrgrg.com/login"
+              className="video-hero-cta"
+            >
+              {/* <NavLink to="#" className="video-hero-cta"> */}
               Pre-Book Now
             </NavLink>
           </div>

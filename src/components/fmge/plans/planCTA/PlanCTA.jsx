@@ -12,8 +12,8 @@ const PlanCTA = () => {
           Choose the plan that fits your exam goals and preparation timeline.
         </p>
         <a
-          // href="https://learn.pharmacologybydrgrg.com/login"
-          href="#"
+          href="https://learn.pharmacologybydrgrg.com/login"
+          // href="#"
           className="fmge-plan-cta-button"
         >
           Choose Your Plan

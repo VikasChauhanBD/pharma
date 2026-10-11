@@ -1,7 +1,7 @@
 .fmge-showcase-section {
   position: relative;
   overflow: hidden;
-  padding: 110px 20px;
+  padding: 110px 20px 40px;
   background: linear-gradient(180deg, #ffffff 0%, #eaf3ff 50%, #ffffff 100%);
 }
 .fmge-showcase-blob {

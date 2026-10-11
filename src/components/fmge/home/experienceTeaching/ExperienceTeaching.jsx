@@ -14,7 +14,7 @@ const videoCards = [
   },
   {
     number: "02",
-    youtubeUrl: "",
+    youtubeUrl: "https://www.youtube.com/embed/3e2o9zev-48",
     thumbnailUrl:
       "https://cdn.dribbble.com/userupload/49283990/file/aafbf1544987062f9e3b65134bfcda1d.jpeg",
     title: "POWER PACK REVISION",
@@ -22,7 +22,7 @@ const videoCards = [
   },
   {
     number: "03",
-    youtubeUrl: "",
+    youtubeUrl: "https://www.youtube.com/embed/5J3psll95tY",
     thumbnailUrl:
       "https://cdn.dribbble.com/userupload/49283991/file/9b429f62adf2d03b9d6a9050cb25214d.jpeg",
     title: "GRG EXPRESS",
