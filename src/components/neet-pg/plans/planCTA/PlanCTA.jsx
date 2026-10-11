@@ -11,12 +11,13 @@ const PlanCTA = () => {
         <p className="pg-plan-cta-description">
           Choose the plan that fits your exam goals and preparation timeline.
         </p>
-        {/* <a
-          href="https://learn.pharmacologybydrgrg.com/login"
+        <a
+          href="#"
+          // href="https://learn.pharmacologybydrgrg.com/login"
           className="pg-plan-cta-button"
         >
           Choose Your Plan
-        </a> */}
+        </a>
       </div>
     </section>
   );
