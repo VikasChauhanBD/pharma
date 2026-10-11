@@ -378,7 +378,7 @@ function PgPlansShowcase() {
             <div className="pg-showcase-plan-notice is-bonus">
               <h3>Bonus Extension Offer</h3>
               <p>
-                Apply code <strong>PHARMAGRG</strong> to avail complimentary
+                Apply code <strong>GRGPHARMA</strong> to avail complimentary
                 3-month extension.
               </p>
             </div>
