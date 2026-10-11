@@ -11,35 +11,35 @@ function PrivacyPolicy() {
         Conceptual Physiotherapy Private Limited (CIN: U85499DL2020PTC365706)
         and Gobind Rai Garg (together, “we”, “us”, or “our”). This Privacy
         Policy explains how we collect, use, disclose, store and otherwise
-        process personal data when you use our websites
-        https://learn.pharmacologybydrgrg.com and pharmacologybydrgrg.com, our
-        mobile applications, our online mock exam services, and the services
-        offered at our offline learning centre, the Vidyajeevan Centre (Plot No.
-        6, Surajpur - Kasna Rd, Institutional Area, Knowledge Park I, Greater
+        process personal data when you use our websites https:
+        //learn.pharmacologybydrgrg.com and pharmacologybydrgrg.com, our mobile
+        applications, our online mock exam services, and the services offered at
+        our offline learning centre, the Vidyajeevan Centre (Plot No. 6,
+        Surajpur - Kasna Rd, Institutional Area, Knowledge Park I, Greater
         Noida, Uttar Pradesh 201310) (together, the “Services”). This Policy is
         drafted to align with the Digital Personal Data Protection Act, 2023
         (India) and good industry practice.
       </p>
       <ul>
         <li>
-          <b>Data Fiduciary:</b>
+          <b>Data Fiduciary: </b>
           Gobind Rai Garg
         </li>
         <li>
-          <b>Address:</b>
+          <b>Address: </b>
           Flat 802, Seventh Floor, Tower 20, Commonwealth Village, New Delhi
           110092
         </li>
         <li>
-          <b>Grievance Officer / Data Protection Officer:</b>
+          <b>Grievance Officer / Data Protection Officer: </b>
           Dr. Gobind Rai Garg
         </li>
         <li>
-          <b>Privacy and grievance email:</b>
+          <b>Privacy and grievance email: </b>
           drgobind@conceptualphysiotherapy.com
         </li>
         <li>
-          <b>Phone:</b>
+          <b>Phone: </b>
           +91-88002 22014
         </li>
       </ul>
@@ -266,27 +266,27 @@ function PrivacyPolicy() {
       </p>
       <ul>
         <li>
-          <b>Account data:</b>
+          <b>Account data: </b>
           for the life of the account and up to 36 months after closure, for
           support, dispute handling, fraud prevention and legal compliance.
         </li>
         <li>
-          <b>Learning and assessment records:</b>
+          <b>Learning and assessment records: </b>
           up to 60 months after your plan ends, for history, analytics,
           rankings, audit and academic-integrity purposes; de‑identified or
           deleted thereafter.
         </li>
         <li>
-          <b>Payment records and invoices:</b>
+          <b>Payment records and invoices: </b>
           for the applicable statutory tax, audit and accounting periods.
         </li>
         <li>
-          <b>CCTV footage (centre common areas):</b>
+          <b>CCTV footage (centre common areas): </b>
           typically 180 days, unless preservation is required for an
           investigation, dispute or legal process.
         </li>
         <li>
-          <b>Network, security and audit logs:</b>
+          <b>Network, security and audit logs: </b>
           typically 90 days, unless required longer for security, compliance or
           legal purposes.
         </li>
@@ -310,21 +310,21 @@ function PrivacyPolicy() {
       </p>
       <ul>
         <li>
-          <b>Access and correction:</b>
+          <b>Access and correction: </b>
           access, correct or update inaccurate or incomplete personal data. Some
           profile fields can be updated directly in the Services.
         </li>
         <li>
-          <b>Deletion:</b>
+          <b>Deletion: </b>
           request deletion of your account and personal data (see section 15),
           subject to legal retention.
         </li>
         <li>
-          <b>Consent withdrawal:</b>
+          <b>Consent withdrawal: </b>
           withdraw consent where processing is based on consent.
         </li>
         <li>
-          <b>Grievance:</b>
+          <b>Grievance: </b>
           raise a complaint with our Grievance Officer; unresolved issues may be
           escalated to the Data Protection Board of India once operational under
           law.
@@ -350,12 +350,12 @@ function PrivacyPolicy() {
       </p>
       <ul>
         <li>
-          <b>In the app:</b>
+          <b>In the app: </b>
           via the “Profile” or “Settings” menu.
         </li>
         <li>
-          <b>On the web:</b>
-          at https://learn.pharmacologybydrgrg.com/delete-account.
+          <b>On the web: </b>
+          at https: //learn.pharmacologybydrgrg.com/delete-account.
         </li>
       </ul>
       <p>
@@ -399,28 +399,28 @@ function PrivacyPolicy() {
       <h2>19. Contact details</h2>
       <ul>
         <li>
-          <b>Grievance Officer / Data Protection Officer:</b>
+          <b>Grievance Officer / Data Protection Officer: </b>
           Dr. Gobind Rai Garg
         </li>
         <li>
-          <b>Privacy and grievance email:</b>
+          <b>Privacy and grievance email: </b>
           drgobind@conceptualphysiotherapy.com
         </li>
         <li>
-          <b>Support email:</b>
+          <b>Support email: </b>
           support@pharmacologybydrgrg.com
         </li>
         <li>
-          <b>Phone:</b>
-          +91-88002 22014
+          <b>Phone: </b>
+          +91-8130036942
         </li>
         <li>
-          <b>Postal address:</b>
+          <b>Postal address: </b>
           Flat 802, Seventh Floor, Tower 20, Commonwealth Village, New Delhi
           110092
         </li>
         <li>
-          <b>Company:</b>
+          <b>Company: </b>
           Conceptual Physiotherapy Private Limited, CIN: U85499DL2020PTC365706
         </li>
       </ul>

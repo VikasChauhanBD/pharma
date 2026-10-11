@@ -15,25 +15,25 @@ function CancellationPolicy() {
       <h2>1. Cancellations</h2>
       <ul>
         <li>
-          <b>Services and appointments:</b> no cancellations.
+          <b>Services and appointments: </b> no cancellations.
         </li>
         <li>
-          <b>Courses, programmes and online plans:</b> no cancellation once a
+          <b>Courses, programmes and online plans: </b> no cancellation once a
           plan is purchased.
         </li>
         <li>
-          <b>Books and hardcopy notes:</b> orders cannot be cancelled once
+          <b>Books and hardcopy notes: </b> orders cannot be cancelled once
           placed.
         </li>
       </ul>
       <h2>2. Refunds</h2>
       <ul>
         <li>
-          <b>Online plans:</b> no refund once the plan is purchased. We
+          <b>Online plans: </b> no refund once the plan is purchased. We
           encourage you to try our free content and demo tests before buying.
         </li>
         <li>
-          <b>Books and hardcopy notes:</b> no refund once the order is placed.
+          <b>Books and hardcopy notes: </b> no refund once the order is placed.
           Damaged, incorrect or missing items and misprints are handled under
           our Shipping &amp; Delivery Policy and must be reported within its
           time limits (36 hours for book issues; 48 hours for damaged or lost
@@ -74,13 +74,13 @@ function CancellationPolicy() {
       <ul>
         <li>Pharmacology by Dr. GRG Team</li>
         <li>
-          <b>Email:</b> support@pharmacologybydrgrg.com
+          <b>Email: </b> support@pharmacologybydrgrg.com
         </li>
         <li>
-          <b>Phone:</b> +91-88002 22014
+          <b>Phone: </b> +91-8130036942
         </li>
         <li>
-          <b>Website:</b> https://learn.pharmacologybydrgrg.com
+          <b>Website: </b> https://learn.pharmacologybydrgrg.com
         </li>
       </ul>
     </div>

@@ -6,11 +6,11 @@ function CancellationPolicyPage() {
   return (
     <div>
       <Helmet>
-        <title>Cancellation & Refund Policy – Pharmacology by Dr. GRG</title>
+        <title>Cancellation & Refund Policy | Pharmacology by Dr. GRG</title>
 
         <meta
           name="description"
-          content="Please check out cancellation & refund policy which offers the terms under which cancellations, reschedules or refunds (if applicable) are processed."
+          content="Review the Cancellation & Refund Policy of Pharmacology by Dr. GRG for details on cancellations, refund eligibility, rescheduling, exceptions and payment issues."
         />
       </Helmet>
 

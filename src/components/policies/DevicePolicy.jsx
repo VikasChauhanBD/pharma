@@ -3,7 +3,7 @@ import "./Policies.css";
 function DevicePolicy() {
   return (
     <div className="main-container policy-document">
-      <h1>Device &amp; Fair Usage Policy – Pharmacology by Dr. GRG</h1>
+      <h1>Device &amp; Fair Usage Policy - Pharmacology by Dr. GRG</h1>
       <p>
         Effective date: 09-Oct-2026 | Version: 2
         <p>
@@ -202,11 +202,11 @@ function DevicePolicy() {
         </li>
         <li>
           <b>Grievance Officer:</b>
-          Dr. Gobind Rai Garg – drgobind@conceptualphysiotherapy.com
+          Dr. Gobind Rai Garg - drgobind@conceptualphysiotherapy.com
         </li>
         <li>
           <b>Phone:</b>
-          +91-88002 22014
+          +91-8130036942
         </li>
       </ul>
     </div>

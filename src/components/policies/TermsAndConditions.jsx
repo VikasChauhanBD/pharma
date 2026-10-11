@@ -9,10 +9,10 @@ function TermsAndConditions() {
         Pharmacology by Dr. GRG, Powered by eConceptual is a product of
         Conceptual Physiotherapy Private Limited (CIN: U85499DL2020PTC365706)
         and Gobind Rai Garg (together, “we”, “us”, or “our”). These Terms govern
-        your access to and use of our websites
-        https://learn.pharmacologybydrgrg.com and pharmacologybydrgrg.com, our
-        mobile applications, the offline learning centre (the “Vidyajeevan
-        Centre”, located at Plot No. 6, Surajpur - Kasna Rd, Institutional Area,
+        your access to and use of our websites https:
+        //learn.pharmacologybydrgrg.com and pharmacologybydrgrg.com, our mobile
+        applications, the offline learning centre (the “Vidyajeevan Centre”,
+        located at Plot No. 6, Surajpur - Kasna Rd, Institutional Area,
         Knowledge Park I, Greater Noida, Uttar Pradesh 201310), and all content,
         courses, tests, books and features (collectively, the “Services”). By
         accessing or using the Services, you agree to these Terms, our Privacy
@@ -121,7 +121,7 @@ function TermsAndConditions() {
           Payments are processed by third‑party gateways; taxes may apply.
         </li>
         <li>
-          <b>Refunds:</b>
+          <b>Refunds: </b>
           subscriptions are non‑refundable once activated, and no refund is due
           if you delete your account. Duplicate payments or proven payment
           failures will be refunded. See our Cancellation &amp; Refund Policy.
@@ -202,11 +202,11 @@ function TermsAndConditions() {
       <h2>14. Governing law &amp; dispute resolution</h2>
       <ul>
         <li>
-          <b>Governing law:</b>
+          <b>Governing law: </b>
           Laws of India.
         </li>
         <li>
-          <b>Dispute resolution:</b>
+          <b>Dispute resolution: </b>
           The parties shall first attempt amicable resolution via our Grievance
           Officer within 30 days. Unresolved disputes shall be referred to
           arbitration under the Arbitration and Conciliation Act, 1996. Seat and
@@ -217,23 +217,23 @@ function TermsAndConditions() {
       <h2>15. Contact</h2>
       <ul>
         <li>
-          <b>Company:</b>
+          <b>Company: </b>
           Conceptual Physiotherapy Private Limited, CIN: U85499DL2020PTC365706
         </li>
         <li>
-          <b>Support email:</b>
+          <b>Support email: </b>
           support@pharmacologybydrgrg.com
         </li>
         <li>
-          <b>Grievance Officer:</b>
+          <b>Grievance Officer: </b>
           Dr. Gobind Rai Garg – drgobind@conceptualphysiotherapy.com
         </li>
         <li>
-          <b>Phone:</b>
-          +91-88002 22014
+          <b>Phone: </b>
+          +91-8130036942
         </li>
         <li>
-          <b>Address:</b>
+          <b>Address: </b>
           Flat 802, Seventh Floor, Tower 20, Commonwealth Village, New Delhi
           110092
         </li>

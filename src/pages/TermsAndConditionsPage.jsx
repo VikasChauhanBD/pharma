@@ -6,11 +6,11 @@ function TermsAndConditionsPage() {
   return (
     <div>
       <Helmet>
-        <title>Terms and Conditions of Use – Pharmacology by Dr. GRG</title>
+        <title>Terms and Conditions | Pharmacology by Dr. GRG</title>
 
         <meta
           name="description"
-          content="Pharmacology by Dr. GRG terms and conditions explains about acceptable use & academic integrity, plans, payments, renewals & refunds, Free trials and demos & more."
+          content="Read the Terms and Conditions of Pharmacology by Dr. GRG to understand account rules, subscriptions, payments, refunds, content usage and user responsibilities."
         />
       </Helmet>
 

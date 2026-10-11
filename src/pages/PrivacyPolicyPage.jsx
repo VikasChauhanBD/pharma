@@ -6,11 +6,11 @@ function PrivacyPolicyPage() {
   return (
     <div>
       <Helmet>
-        <title>Privacy Policy – Pharmacology by Dr. GRG</title>
+        <title>Privacy Policy | Pharmacology by Dr. GRG</title>
 
         <meta
           name="description"
-          content="Pharmacology by Dr. GRG Privacy Policy explains how we collect, use and protect your data, ensuring a safe and transparent learning experience for every student."
+          content="Learn about the Privacy Policy of Pharmacology by Dr. GRG, including user data protection, account security, and policies for using our website and app."
         />
       </Helmet>
 

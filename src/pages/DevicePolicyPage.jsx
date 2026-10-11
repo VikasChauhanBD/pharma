@@ -6,11 +6,11 @@ function DevicePolicyPage() {
   return (
     <div>
       <Helmet>
-        <title>Device & Fair Usage Policy – Pharmacology by Dr. GRG</title>
+        <title>Device & Fair Usage Policy | Pharmacology by Dr. GRG</title>
 
         <meta
           name="description"
-          content="Pharmacology by Dr. GRG Device & Fair Usage Policy explains supported platforms, device linking, session limits and content protection."
+          content="Understand the Device & Fair Usage Policy of Pharmacology by Dr. GRG, including device limits, app access, account security, session rules and content protection."
         />
       </Helmet>
 
