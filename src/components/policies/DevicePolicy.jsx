@@ -198,7 +198,7 @@ function DevicePolicy() {
       <ul>
         <li>
           <b>Support:</b>
-          support@pharmacologybydrgrg.com
+          support@pharmabydrgrg.com
         </li>
         <li>
           <b>Grievance Officer:</b>

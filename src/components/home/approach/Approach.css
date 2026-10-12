@@ -42,19 +42,19 @@
 .approach-main-cta,
 .approach-final-cta {
   display: inline-block;
-  border: 2px solid #ff9b6b;
+  border: 2px solid #f07127;
   padding: 10px 20px;
   border-radius: 50px;
   font-size: 18px;
   text-decoration: none;
-  background-color: #ff9b6b;
+  background-color: #f07127;
   color: #ffffff;
   margin-top: 1rem;
 }
 
 .approach-main-cta:hover,
 .approach-final-cta:hover {
-  color: #ff9b6b;
+  color: #f07127;
   background: transparent;
 }
 

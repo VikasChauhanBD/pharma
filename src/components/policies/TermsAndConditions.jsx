@@ -222,7 +222,7 @@ function TermsAndConditions() {
         </li>
         <li>
           <b>Support email: </b>
-          support@pharmacologybydrgrg.com
+          support@pharmabydrgrg.com
         </li>
         <li>
           <b>Grievance Officer: </b>

@@ -25,16 +25,18 @@ function ContactPage() {
       <div className="contact-grid">
         <section className="contact-card" aria-labelledby="support-heading">
           <h2 id="support-heading">Student support</h2>
-          <p>For course enquiries, app access, payments and delivery assistance.</p>
-          <a className="contact-email" href="mailto:support@pharmacologybydrgrg.com">
-            support@pharmacologybydrgrg.com
+          <p>
+            For course enquiries, app access, payments and delivery assistance.
+          </p>
+          <a className="contact-email" href="mailto:support@pharmabydrgrg.com">
+            support@pharmabydrgrg.com
           </a>
           <p className="contact-note">
             Include your registered email and relevant order details. For
-            technical issues, include your device model and a description of
-            the problem so we can help you.
+            technical issues, include your device model and a description of the
+            problem so we can help you.
           </p>
-          <a className="contact-button" href="mailto:support@pharmacologybydrgrg.com">
+          <a className="contact-button" href="mailto:support@pharmabydrgrg.com">
             Email support
           </a>
         </section>
@@ -43,11 +45,18 @@ function ContactPage() {
           <h2 id="privacy-heading">Privacy &amp; grievances</h2>
           <p>For privacy questions, personal data requests and complaints.</p>
           <p className="contact-officer">Dr. Gobind Rai Garg</p>
-          <a className="contact-email" href="mailto:drgobind@conceptualphysiotherapy.com">
+          <a
+            className="contact-email"
+            href="mailto:drgobind@conceptualphysiotherapy.com"
+          >
             drgobind@conceptualphysiotherapy.com
           </a>
-          <a className="contact-phone" href="tel:+918800222014">+91 88002 22014</a>
-          <Link className="contact-policy" to="/privacy-policy">Read our Privacy Policy →</Link>
+          <a className="contact-phone" href="tel:+918800222014">
+            +91 88002 22014
+          </a>
+          <Link className="contact-policy" to="/privacy-policy">
+            Read our Privacy Policy →
+          </Link>
         </section>
       </div>
 

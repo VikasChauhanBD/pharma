@@ -46,7 +46,7 @@ function PrivacyPolicy() {
       <p>
         For privacy questions, rights requests or complaints, please write to
         the Grievance Officer at drgobind@conceptualphysiotherapy.com. For all
-        other support, write to support@pharmacologybydrgrg.com.
+        other support, write to support@pharmabydrgrg.com.
       </p>
       <h2>2. Medical education disclaimer</h2>
       <p>
@@ -408,7 +408,7 @@ function PrivacyPolicy() {
         </li>
         <li>
           <b>Support email: </b>
-          support@pharmacologybydrgrg.com
+          support@pharmabydrgrg.com
         </li>
         <li>
           <b>Phone: </b>

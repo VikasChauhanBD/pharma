@@ -189,9 +189,9 @@
   display: inline-block;
   text-decoration: none;
   padding: 12px 20px;
-  border: 1px solid #ff9b6b;
+  border: 1px solid #f07127;
   border-radius: 10px;
-  background: #ff9b6b;
+  background: #f07127;
   color: #ffffff;
   font-size: 18px;
   font-weight: 600;
@@ -204,7 +204,7 @@
 }
 .video-hero-cta:hover {
   background: transparent;
-  color: #ff9b6b;
+  color: #f07127;
 }
 /* ---------------------------------- Responsive ------------------------- */
 /* @media (max-width: 1300px) {

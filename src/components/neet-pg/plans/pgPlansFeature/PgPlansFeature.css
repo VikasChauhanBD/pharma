@@ -5,7 +5,7 @@
     #004d7a 0%,
     #222222 25%,
     #004d7a 50%,
-    #ff9b6b 75%,
+    #f07127 75%,
     #004d7a 100%
   );
   background-size: 300% 300%;
@@ -53,7 +53,7 @@
   content: "";
   width: 8px;
   height: 8px;
-  background-color: #ff9b6b;
+  background-color: #f07127;
   border-radius: 50%;
   flex-shrink: 0;
 }
@@ -103,7 +103,7 @@
 }
 
 .pg-plans-feature-cards:focus-visible {
-  outline: 2px solid #ff9b6b;
+  outline: 2px solid #f07127;
   outline-offset: 4px;
 }
 
@@ -204,12 +204,12 @@
 }
 
 .pg-plans-feature-nav-btn:hover:not(:disabled) {
-  background-color: #ff9b6b;
+  background-color: #f07127;
   transform: scale(1.06);
 }
 
 .pg-plans-feature-nav-btn:focus-visible {
-  outline: 2px solid #ff9b6b;
+  outline: 2px solid #f07127;
   outline-offset: 3px;
 }
 

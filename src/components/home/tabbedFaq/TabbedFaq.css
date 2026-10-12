@@ -49,12 +49,12 @@
   cursor: pointer;
 }
 .grg-tabbed-faq-tabs button[aria-selected="true"] {
-  background: #ff9b6b;
-  border-color: #ff9b6b;
+  background: #f07127;
+  border-color: #f07127;
   color: #004d7a;
 }
 .grg-tabbed-faq-tabs button:hover {
-  border-color: #ff9b6b;
+  border-color: #f07127;
 }
 .grg-tabbed-faq-panel {
   min-width: 0;
@@ -87,7 +87,7 @@
 }
 .grg-tabbed-faq-toggle {
   flex-shrink: 0;
-  color: #ff9b6b;
+  color: #f07127;
   font-size: 26px;
 }
 .grg-tabbed-faq-answer {

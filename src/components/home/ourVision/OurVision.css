@@ -17,7 +17,7 @@
   align-items: center;
   justify-content: space-between;
   padding-bottom: 25px;
-  border-bottom: 1px solid #ff9b6b;
+  border-bottom: 1px solid #f07127;
 }
 
 .vision-label {
@@ -46,7 +46,7 @@
 }
 
 .vision-title-line span {
-  color: #ff9b6b;
+  color: #f07127;
 }
 
 .vision-content {
@@ -62,7 +62,7 @@
 }
 
 .vision-description strong {
-  color: #ff9b6b;
+  color: #f07127;
   font-weight: 600;
 }
 
@@ -72,7 +72,7 @@
   gap: 10px;
   margin: 45px 0;
   padding-left: 25px;
-  border-left: 2px solid #ff9b6b;
+  border-left: 2px solid #f07127;
 }
 
 .vision-highlight-word {
@@ -84,7 +84,7 @@
 
 .vision-bottom {
   padding-top: 35px;
-  border-top: 1px solid #ff9b6b;
+  border-top: 1px solid #f07127;
 }
 
 .vision-closing {

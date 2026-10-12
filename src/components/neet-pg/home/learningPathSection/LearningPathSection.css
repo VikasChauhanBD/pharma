@@ -30,7 +30,7 @@
   content: "";
   width: 8px;
   height: 8px;
-  background-color: #ff9b6b;
+  background-color: #f07127;
   border-radius: 50%;
   flex-shrink: 0;
 }
@@ -72,7 +72,7 @@
   transition: transform 0.4s ease;
 }
 .learning-path-card:hover {
-  border-color: #ff9b6b;
+  border-color: #f07127;
   box-shadow: 0 20px 45px rgba(0, 77, 122, 0.12);
 }
 .learning-path-card:hover::before {

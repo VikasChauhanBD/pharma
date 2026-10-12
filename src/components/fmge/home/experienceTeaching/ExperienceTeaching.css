@@ -25,7 +25,7 @@
   content: "";
   width: 8px;
   height: 8px;
-  background-color: #ff9b6b;
+  background-color: #f07127;
   border-radius: 50%;
   flex-shrink: 0;
 }
@@ -67,7 +67,7 @@
   height: 84px;
   padding-left: 5px;
   border-radius: 50%;
-  background: #ff9b6b;
+  background: #f07127;
   color: #ffffff;
   font-size: 28px;
 }
@@ -97,9 +97,9 @@
 .experience-cta {
   flex-shrink: 0;
   padding: 14px 30px;
-  border: 1px solid #ff9b6b;
+  border: 1px solid #f07127;
   border-radius: 50px;
-  background: #ff9b6b;
+  background: #f07127;
   color: #ffffff;
   font-size: 16px;
   font-weight: 600;
@@ -111,7 +111,7 @@
 }
 .experience-cta:hover {
   background: transparent;
-  color: #ff9b6b;
+  color: #f07127;
 }
 /* ---------------------------------- Responsive ------------------------- */
 @media (max-width: 1300px) {

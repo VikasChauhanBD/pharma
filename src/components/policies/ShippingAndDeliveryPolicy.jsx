@@ -83,7 +83,7 @@ function ShippingAndDeliveryPolicy() {
         <li>Pharmacology by Dr. GRG Team</li>
         <li>
           <b>Email:</b>
-          support@pharmacologybydrgrg.com
+          support@pharmabydrgrg.com
         </li>
         <li>
           <b>Phone:</b>

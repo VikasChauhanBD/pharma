@@ -32,7 +32,7 @@
   content: "";
   width: 8px;
   height: 8px;
-  background-color: #ff9b6b;
+  background-color: #f07127;
   border-radius: 50%;
   flex-shrink: 0;
 }
@@ -99,7 +99,7 @@
   font-size: 14px;
   font-weight: 700;
   letter-spacing: 2px;
-  color: #ff9b6b;
+  color: #f07127;
 }
 .fmge-platform-card-title {
   display: flex;
@@ -130,15 +130,15 @@
   font-size: 18px;
   text-decoration: none;
   color: #ffffff;
-  background-color: #ff9b6b;
-  border: 2px solid #ff9b6b;
+  background-color: #f07127;
+  border: 2px solid #f07127;
   border-radius: 50px;
   transition:
     color 0.3s ease,
     background-color 0.3s ease;
 }
 .fmge-platform-cta:hover {
-  color: #ff9b6b;
+  color: #f07127;
   background-color: transparent;
 }
 /* ---------------------------------- Responsive ------------------------- */

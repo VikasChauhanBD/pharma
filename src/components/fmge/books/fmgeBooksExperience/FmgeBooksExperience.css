@@ -42,7 +42,7 @@
   display: inline-block;
   padding: 10px 20px;
   border-radius: 999px;
-  background: #ff9b6b;
+  background: #f07127;
   color: #004d7a;
   font-size: 16px;
   font-weight: 700;
@@ -72,7 +72,7 @@
   width: 100%;
   height: 100%;
   border-radius: 3px;
-  background: linear-gradient(90deg, #004d7a, #ff9b6b);
+  background: linear-gradient(90deg, #004d7a, #f07127);
 }
 .fmge-books-experience-step {
   position: relative;
@@ -166,7 +166,7 @@
   left: 0;
   width: 100%;
   height: 5px;
-  background: linear-gradient(90deg, #004d7a, #ff9b6b);
+  background: linear-gradient(90deg, #004d7a, #f07127);
 }
 .fmge-books-experience-card-icon {
   display: flex;
@@ -321,7 +321,7 @@
   display: flex;
   width: 26px;
   height: 26px;
-  color: #ff9b6b;
+  color: #f07127;
 }
 .fmge-books-experience-stage-arrow svg {
   width: 100%;
@@ -331,7 +331,7 @@
   display: inline-block;
   padding: 10px 26px;
   border-radius: 999px;
-  background: #ff9b6b;
+  background: #f07127;
   color: #222222;
   font-size: 18px;
   font-weight: 700;
@@ -434,7 +434,7 @@
     height: auto;
   }
   .fmge-books-experience-line-fill {
-    background: linear-gradient(180deg, #004d7a, #ff9b6b);
+    background: linear-gradient(180deg, #004d7a, #f07127);
   }
   .fmge-books-experience-step {
     flex-direction: row;

@@ -56,9 +56,9 @@
   display: inline-block;
   margin-top: 28px;
   padding: 12px 24px;
-  border: 2px solid #ff9b6b;
+  border: 2px solid #f07127;
   border-radius: 50px;
-  background: #ff9b6b;
+  background: #f07127;
   color: #004d7a;
   font-size: 17px;
   font-weight: 600;
@@ -136,7 +136,8 @@
   padding: 88px clamp(24px, 8vw, 150px);
   display: flex;
   align-items: center;
-  background: url("https://cdn.dribbble.com/userupload/49267101/file/062e0e1034e53b5b87c3e30840f9e715.jpg") center / cover no-repeat;
+  background: url("https://cdn.dribbble.com/userupload/49267101/file/062e0e1034e53b5b87c3e30840f9e715.jpg")
+    center / cover no-repeat;
 }
 .fmge-intro-section .fmge-intro-layout {
   display: block;

@@ -51,8 +51,8 @@ function CancellationPolicy() {
         <li>
           Duplicate payments and proven payment failures (where you were charged
           but the purchase did not go through) will be refunded to the original
-          payment method. Please write to support@pharmacologybydrgrg.com with
-          your order ID.
+          payment method. Please write to support@pharmabydrgrg.com with your
+          order ID.
         </li>
       </ul>
       <h2>3. Rescheduling</h2>
@@ -74,7 +74,7 @@ function CancellationPolicy() {
       <ul>
         <li>Pharmacology by Dr. GRG Team</li>
         <li>
-          <b>Email: </b> support@pharmacologybydrgrg.com
+          <b>Email: </b> support@pharmabydrgrg.com
         </li>
         <li>
           <b>Phone: </b> +91-8130036942
