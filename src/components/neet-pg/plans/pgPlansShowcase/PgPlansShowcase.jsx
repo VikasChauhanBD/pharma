@@ -366,6 +366,10 @@ function PgPlansShowcase() {
             <p className="pg-showcase-price-note">
               These exclusive pre-booking prices won’t be available again.
             </p>
+            <p className="pg-showcase-price-imp">
+              Please note that your plan validity will begin from the app launch
+              date.
+            </p>
           </div>
           <div className="pg-showcase-plan-notices">
             <div className="pg-showcase-plan-notice is-hardcopy">

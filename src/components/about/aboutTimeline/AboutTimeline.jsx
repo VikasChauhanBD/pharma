@@ -33,17 +33,17 @@ const milestones = [
   {
     year: "2006",
     image:
-      "https://cdn.dribbble.com/userupload/49283785/file/676e8fe17ad9ef229cbf2638c48f3a33.jpeg",
+      "https://cdn.dribbble.com/userupload/49291194/file/d297b382598a039a54afc8987e4ad130.jpeg",
     title: "A Flagship Book Takes Shape",
     text: "Review of Pharmacology became a defining part of his contribution to medical education. Now in its 16th edition, it serves medical PG aspirants preparing for NEET PG, INI-CET and FMGE.",
   },
   {
     year: "2009",
     image:
-      "https://cdn.dribbble.com/userupload/49283786/file/04d2a7492dd85548203e8c6463adf80b.jpeg",
+      "https://cdn.dribbble.com/userupload/49279847/file/09fb135ed677ea1fd79bc600dc2f827e.jpg",
     imageAlt: "Dr. Gobind Rai Garg — placeholder image",
     title: "Expanding Beyond Pharmacology",
-    text: "Co-authored Review of Pathology and Genetics, extending his contribution to medical learning beyond Pharmacology.",
+    text: "Authored Review of Pathology and Genetics, extending his contribution to medical learning beyond Pharmacology.",
   },
   {
     year: "2010–2011",
@@ -56,7 +56,7 @@ const milestones = [
   {
     year: "2012",
     image:
-      "https://cdn.dribbble.com/userupload/49248569/file/71eb1871e457fb270c0443c2efce80a9.jpeg",
+      "https://cdn.dribbble.com/userupload/49279700/file/cfb3e47538497aa9a7f31a0f538e7a22.jpg",
     imageAlt: "Dr. Gobind Rai Garg",
     title: "The Turning Point",
     text: `A professional rejection changed the direction of his career. Instead of stepping back from teaching, he chose to build his own path through individual coaching for undergraduate and postgraduate medical students across India.
@@ -77,10 +77,10 @@ He didn’t just simplify a difficult subject. He changed how students connected
   {
     year: "2019",
     image:
-      "https://cdn.dribbble.com/userupload/49283784/file/5f5625617cacb0d78ccdbffd8f2e4c61.jpeg",
+      "https://cdn.dribbble.com/userupload/49279783/file/793898342749ef7c57a5ffba43cc4317.jpg",
     imageAlt: "Dr. Gobind Rai Garg — placeholder image",
     title: "Making Pharmacology Simpler",
-    text: "Co-authored Simplified Pharmacology, bringing core pharmacological concepts to students in a more accessible format.",
+    text: "Authored Simplified Pharmacology, bringing core pharmacological concepts to students in a more accessible format.",
   },
   {
     year: "The Years That Followed",
