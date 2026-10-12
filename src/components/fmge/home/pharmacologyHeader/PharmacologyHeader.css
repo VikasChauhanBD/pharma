@@ -111,7 +111,7 @@
 }
 
 .fmge-pharma-main-text {
-  flex: 1 1 60%;
+  flex: 1 1 65%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -127,10 +127,8 @@
 }
 
 .fmge-pharma-main-title {
-  font-size: 28px;
-  text-transform: uppercase;
+  font-size: 42px;
   background: #ffffff;
-  background-size: 300% 100%;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -139,16 +137,34 @@
 }
 
 .fmge-pharma-tagline {
-  font-size: 72px;
+  font-size: 56px;
   font-weight: 700;
   line-height: 1.1;
+}
+
+.fmge-pharma-highlight {
+  position: relative;
+  display: inline-block;
+  color: #f07127;
+}
+
+.fmge-pharma-highlight::after {
+  content: "";
+  position: absolute;
+  left: 2%;
+  bottom: -7px;
+  width: 96%;
+  height: 9px;
+  border-bottom: 4px solid #f07127;
+  border-radius: 0 0 50% 50%;
+  transform: rotate(-1.5deg);
 }
 
 .fmge-pharma-desc {
   font-size: 20px;
   line-height: 1.4;
   letter-spacing: 1.2px;
-  margin: 1.5rem 0;
+  margin-top: 2rem !important;
 }
 
 .fmge-pharma-cta-row {
@@ -162,9 +178,7 @@
   display: inline-block;
   text-decoration: none;
   padding: 12px 20px;
-  border: 1px solid #ff9b6b;
-  border-radius: 10px;
-  background: #ff9b6b;
+  border-radius: 50px;
   color: #ffffff;
   font-size: 18px;
   font-weight: 600;
@@ -176,13 +190,28 @@
     transform 0.3s ease;
 }
 
-.fmge-pharma-btn:hover {
+.fmge-pharma-cta-1 {
+  border: 1px solid #f07127;
+  background: #f07127;
+}
+
+.fmge-pharma-cta-2 {
+  border: 1px solid #ffffff;
   background: transparent;
-  color: #ff9b6b;
+}
+
+.fmge-pharma-cta-1:hover {
+  border: 1px solid #ffffff;
+  background: transparent;
+}
+
+.fmge-pharma-cta-2:hover {
+  border: 1px solid #f07127;
+  background: #f07127;
 }
 
 .fmge-pharma-main-image-wrap {
-  flex: 1 1 50%;
+  flex: 1 1 35%;
   align-self: flex-end;
   display: flex;
   align-items: flex-end;
@@ -245,11 +274,15 @@
 
 @media (max-width: 1440px) {
   .fmge-pharma-main {
-    padding: 60px 24px 0;
+    padding: 60px 20px 0;
+  }
+
+  .fmge-pharma-main-title {
+    font-size: 36px;
   }
 
   .fmge-pharma-tagline {
-    font-size: 52px;
+    font-size: 44px;
   }
 }
 
@@ -292,6 +325,10 @@
     justify-content: center;
   }
 
+  .fmge-pharma-btn {
+    font-size: 16px;
+  }
+
   .fmge-pharma-main-image {
     max-height: 50vh;
   }
@@ -324,7 +361,7 @@
   }
 
   .fmge-pharma-main-title {
-    font-size: 20px;
+    font-size: 19px;
   }
 
   .fmge-pharma-tagline {
@@ -333,7 +370,6 @@
 
   .fmge-pharma-btn {
     width: 100%;
-    font-size: 16px;
   }
 }
 

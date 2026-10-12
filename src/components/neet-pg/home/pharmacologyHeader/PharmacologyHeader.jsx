@@ -72,7 +72,8 @@ export default function PharmacologyHeader() {
             </h1>
             <p className="pg-pharma-powered">Powered by eConceptual</p>
             <h2 className="pg-pharma-tagline">
-              From Pharmacophobia To Pharmacophilia
+              From Pharmacophobia To{" "}
+              <span className="pg-pharma-highlight">Pharmacophilia</span>
             </h2>
             <p className="pg-pharma-desc">
               <b>Understand</b> the concept. <b>Remember</b> what matters.{" "}
@@ -84,18 +85,18 @@ export default function PharmacologyHeader() {
             <div className="pg-pharma-cta-row">
               <button
                 type="button"
-                className="pg-pharma-btn"
+                className="pg-pharma-btn pg-pharma-cta-1"
                 onClick={scrollToVideo}
               >
-                Watch a Sample Class
+                Watch a Sample Class →
               </button>
               <a
-                className="pg-pharma-btn"
+                className="pg-pharma-btn pg-pharma-cta-2"
                 href="https://learn.pharmacologybydrgrg.com/login"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Pre-Book Now
+                Pre-Book Now →
               </a>
             </div>
           </div>

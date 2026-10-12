@@ -66,36 +66,37 @@ export default function PharmacologyHeader() {
       {stage === "main" && (
         <div className="fmge-pharma-main">
           <div className="fmge-pharma-main-text">
-            <p className="fmge-pharma-main-exams">FMGE</p>
+            <p className="fmge-pharma-main-exams">NEET PG | INI CET</p>
             <h1 className="fmge-pharma-main-title">
               Pharmacology By Dr. Gobind Rai Garg
             </h1>
             <p className="fmge-pharma-powered">Powered by eConceptual</p>
             <h2 className="fmge-pharma-tagline">
-              From Pharmacophobia To Pharmacophilia
+              From Pharmacophobia To{" "}
+              <span className="fmge-pharma-highlight">Pharmacophilia</span>
             </h2>
             <p className="fmge-pharma-desc">
               <b>Understand</b> the concept. <b>Remember</b> what matters.{" "}
               <b>Apply</b> it when it counts.
               <br />
               <br />A complete Pharmacology learning and revision ecosystem for{" "}
-              <b>FMGE</b>
+              <b>NEET PG | INI CET</b>
             </p>
             <div className="fmge-pharma-cta-row">
               <button
                 type="button"
-                className="fmge-pharma-btn"
+                className="fmge-pharma-btn fmge-pharma-cta-1"
                 onClick={scrollToVideo}
               >
-                Watch a Sample Class
+                Watch a Sample Class →
               </button>
               <a
-                className="fmge-pharma-btn"
+                className="fmge-pharma-btn fmge-pharma-cta-2"
                 href="https://learn.pharmacologybydrgrg.com/login"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Pre-Book Now
+                Pre-Book Now →
               </a>
             </div>
           </div>
