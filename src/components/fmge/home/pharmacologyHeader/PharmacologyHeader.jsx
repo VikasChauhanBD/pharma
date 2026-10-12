@@ -66,7 +66,7 @@ export default function PharmacologyHeader() {
       {stage === "main" && (
         <div className="fmge-pharma-main">
           <div className="fmge-pharma-main-text">
-            <p className="fmge-pharma-main-exams">NEET PG | INI CET</p>
+            <p className="fmge-pharma-main-exams">FMGE</p>
             <h1 className="fmge-pharma-main-title">
               Pharmacology By Dr. Gobind Rai Garg
             </h1>
@@ -80,7 +80,7 @@ export default function PharmacologyHeader() {
               <b>Apply</b> it when it counts.
               <br />
               <br />A complete Pharmacology learning and revision ecosystem for{" "}
-              <b>NEET PG | INI CET</b>
+              <b>FMGE</b>
             </p>
             <div className="fmge-pharma-cta-row">
               <button
