@@ -66,7 +66,7 @@ A personal turning point became the beginning of a new era in independent medica
   {
     year: "2018",
     image:
-      "https://cdn.dribbble.com/userupload/49248569/file/71eb1871e457fb270c0443c2efce80a9.jpeg",
+      "https://cdn.dribbble.com/userupload/49248569/file/98782f042a51f3f67e1def7e940ff1b2.jpeg",
     imageAlt: "Dr. Gobind Rai Garg",
     title: "Making Pharmacology Easy to Love",
     text: `In 2018, Dr. GRG took his vision of independent teaching beyond the classroom with the launch of an independent Pharmacology app-bringing his distinctive teaching approach to students across India.

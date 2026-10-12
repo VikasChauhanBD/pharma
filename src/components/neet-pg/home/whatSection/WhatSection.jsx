@@ -11,7 +11,7 @@ function WhatSection() {
     {
       id: 1,
       image:
-        "https://cdn.dribbble.com/userupload/49248569/file/71eb1871e457fb270c0443c2efce80a9.jpeg",
+        "https://cdn.dribbble.com/userupload/49248569/file/98782f042a51f3f67e1def7e940ff1b2.jpeg",
       label: "01 · DETAILED LEARNING",
       title: "GRG Master Class",
       description: (
@@ -26,7 +26,7 @@ function WhatSection() {
     {
       id: 2,
       image:
-        "https://cdn.dribbble.com/userupload/49248568/file/440b7f4bcea9edcf6f73762d6f6feab5.jpeg",
+        "https://cdn.dribbble.com/userupload/49248568/file/3e39d721b5367a176a466d9cb800ca11.jpeg",
       label: "02 · REVISION",
       title: "Power Pack Revision",
       description: (
@@ -40,7 +40,7 @@ function WhatSection() {
     {
       id: 3,
       image:
-        "https://cdn.dribbble.com/userupload/49269850/file/66000d608cd36a0dc54a6e92c65cb9a9.jpeg",
+        "https://cdn.dribbble.com/userupload/49248774/file/d73aa4ab3ae50745226f3fbf0c87abf4.jpeg",
       label: "03 · RAPID LEARNING",
       title: "GRG Express",
       description: (
