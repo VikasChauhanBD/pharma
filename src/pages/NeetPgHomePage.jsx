@@ -10,10 +10,23 @@ import LearningPathSection from "../components/neet-pg/home/learningPathSection/
 import ExperienceTeaching from "../components/neet-pg/home/experienceTeaching/ExperienceTeaching";
 import ThePromise from "../components/neet-pg/home/thePromise/ThePromise";
 import PharmacologyHeader from "../components/neet-pg/home/pharmacologyHeader/PharmacologyHeader";
+import { Helmet } from "react-helmet";
 
 function NeetPgHomePage() {
   return (
     <div className="neet-pg-home">
+      <Helmet>
+        <title>
+          Pharmacology NEET PG & INICET Exam Preparation | Pharmacology by Dr.
+          GRG
+        </title>
+
+        <meta
+          name="description"
+          content="Join with Dr. GR Garg for Pharmacology NEET PG & INICET exam preparation through concept-based lectures, MCQs, PYQs, revision modules & mock tests."
+        />
+      </Helmet>
+
       {/* <VideoHero /> */}
       <PharmacologyHeader />
       <WhySection />

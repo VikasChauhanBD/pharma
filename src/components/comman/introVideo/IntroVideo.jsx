@@ -36,7 +36,7 @@ function IntroVideo({ onEnd }) {
         onEnded={handleEnded}
       >
         <source
-          src="https://cdn.dribbble.com/userupload/49280672/file/large-896e15b5731c772947b18a3bc6a189fe.mp4"
+          src="https://cdn.dribbble.com/userupload/49280672/file/large-84b06a2eaa3a30a6839f66a2fd014fbe.mp4"
           type="video/mp4"
         />
       </video>

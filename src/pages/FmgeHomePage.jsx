@@ -10,10 +10,22 @@ import LearningPathSection from "../components/fmge/home/learningPathSection/Lea
 import ExperienceTeaching from "../components/fmge/home/experienceTeaching/ExperienceTeaching";
 import ThePromise from "../components/fmge/home/thePromise/ThePromise";
 import PharmacologyHeader from "../components/fmge/home/pharmacologyHeader/PharmacologyHeader";
+import { Helmet } from "react-helmet";
 
 function FmgeHomePage() {
   return (
     <div className="fmge-home">
+      <Helmet>
+        <title>
+          Pharmacology FMGE Exam Preparation | Pharmacology by Dr. GRG
+        </title>
+
+        <meta
+          name="description"
+          content="Connect @pharmacologybydrgrg for Pharmacology FMGE exam preparation. A step towards success in Pharmacology learning journey with efficient revision."
+        />
+      </Helmet>
+
       {/* <VideoHero /> */}
       <PharmacologyHeader />
       <WhySection />
