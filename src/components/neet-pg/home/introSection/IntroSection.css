@@ -89,7 +89,7 @@
     max-width: 720px;
   }
 }
-@media (max-width: 1300px) {
+@media (max-width: 1440px) {
   .pg-intro-layout {
     width: 100%;
   }

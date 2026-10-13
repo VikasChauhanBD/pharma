@@ -274,7 +274,7 @@
   align-self: flex-start;
 }
 /* -------------------------------- responsive ------------------------------ */
-@media (max-width: 1300px) {
+@media (max-width: 1440px) {
   .fmge-books-details-list,
   .fmge-books-details-divider {
     width: 100%;

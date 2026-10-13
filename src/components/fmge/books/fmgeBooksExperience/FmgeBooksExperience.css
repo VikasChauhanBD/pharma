@@ -393,7 +393,7 @@
   line-height: 1;
 }
 /* ------------------------------------- responsive ----------------------------------- */
-@media (max-width: 1300px) {
+@media (max-width: 1440px) {
   .fmge-books-experience-container {
     width: 100%;
   }

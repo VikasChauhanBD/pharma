@@ -1,12 +1,12 @@
 .main-container {
   width: 70%;
   margin: 4rem auto;
-  color: #3f3f3f;
+  color: #222222;
 }
 .main-para {
   font-size: 16px;
   font-weight: 400;
-  color: #3f3f3f;
+  color: #222222;
   margin-bottom: 1rem;
 }
 .main-container h1 {
@@ -24,7 +24,7 @@
 }
 .main-container p {
   font-size: 16px;
-  color: #3f3f3f;
+  color: #222222;
   line-height: 1.4;
 }
 .main-container h3 {

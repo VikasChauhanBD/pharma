@@ -94,7 +94,7 @@
 #fmge-books-details {
   scroll-margin-top: 100px;
 }
-@media (max-width: 1300px) {
+@media (max-width: 1440px) {
   .fmge-books-header-hero {
     width: 100%;
   }

@@ -121,7 +121,7 @@
   line-height: 1.65;
 }
 /* ---------------------------------- Responsive ------------------------- */
-@media (max-width: 1300px) {
+@media (max-width: 1440px) {
   .learning-path-container {
     width: 100%;
   }

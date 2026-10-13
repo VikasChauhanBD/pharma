@@ -345,7 +345,7 @@
   display: inline-block;
 }
 /* ----------------------------------- responsive ----------------------------- */
-@media (max-width: 1300px) {
+@media (max-width: 1440px) {
   .pg-books-experience-container {
     width: 100%;
   }

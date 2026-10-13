@@ -295,7 +295,7 @@
 
 /* ---------------------------------- Responsive ------------------------- */
 
-@media (max-width: 1300px) {
+@media (max-width: 1440px) {
   .faq-hero {
     height: 340px;
   }

@@ -108,7 +108,7 @@
   line-height: 1.85;
 }
 /* ---------------------------------- Responsive ------------------------- */
-@media (max-width: 1300px) {
+@media (max-width: 1440px) {
   .why-section-content {
     width: 100%;
   }

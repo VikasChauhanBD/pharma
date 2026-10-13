@@ -454,7 +454,7 @@
   color: #f07127;
 }
 /* ---------------------------------- Responsive ------------------------- */
-@media (max-width: 1300px) {
+@media (max-width: 1440px) {
   .fmge-showcase-container {
     width: 100%;
   }

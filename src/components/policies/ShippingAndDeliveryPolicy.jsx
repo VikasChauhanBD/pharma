@@ -87,7 +87,7 @@ function ShippingAndDeliveryPolicy() {
         </li>
         <li>
           <b>Phone:</b>
-          +91-88002 22014
+          +91-8130036942
         </li>
         <li>
           <b>Website:</b>

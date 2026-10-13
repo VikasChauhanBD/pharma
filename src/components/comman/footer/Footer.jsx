@@ -173,7 +173,7 @@ function Footer() {
           <div>
             <p>
               &copy; {new Date().getFullYear()} Pharmacology by Dr. GRG. Unit of
-              Conceptual Physiotherapy Pvt.Ltd. Powered by eConceptual
+              Conceptual Physiotherapy Pvt. Ltd. Powered by eConceptual
               <br />
               All Rights Reserved. Designed & Managed By:{" "}
               <NavLink to="https://believersdestination.com/" target="_blank">

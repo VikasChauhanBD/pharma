@@ -274,7 +274,7 @@
   align-self: flex-start;
 }
 /* -------------------------------- responsive ------------------------------ */
-@media (max-width: 1300px) {
+@media (max-width: 1440px) {
   .pg-books-details-divider,
   .pg-books-details-list {
     width: 100%;

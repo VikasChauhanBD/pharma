@@ -178,7 +178,7 @@
 
 /* ---------------------------------- Responsive ------------------------- */
 
-@media (max-width: 1300px) {
+@media (max-width: 1440px) {
   .what-card-image {
     width: 42%;
   }

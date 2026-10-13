@@ -267,7 +267,7 @@
 
 /* ---------------------------------- Responsive ------------------------- */
 
-@media (max-width: 1300px) {
+@media (max-width: 1440px) {
   .events-header {
     width: calc(100% - 60px);
   }

@@ -96,7 +96,7 @@ const PinGate = ({ children }) => {
       </h3>
       <p
         style={{
-          color: "#3f3f3f",
+          color: "#222222",
           fontSize: "18px",
           marginBottom: "16px",
           position: "relative",
