@@ -3,39 +3,16 @@ import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import "./Faqs.css";
+import categories from "../home/tabbedFaq/faqContent.json";
 
 gsap.registerPlugin(useGSAP, ScrollTrigger);
 
-const questions = [
-  [
-    "Is this for NEET PG, INI-CET and FMG?",
-    "Yes. The course content is specifically designed for NEET PG, INI-CET and FMG aspirants, with separate video lectures for NEET PG/INI-CET and FMG preparation.",
-  ],
-  [
-    "Are the video lectures available in English and Hinglish?",
-    "Yes. Video lectures will be available in both English and Hinglish.",
-  ],
-  [
-    "Are there separate lectures for FMG aspirants?",
-    "Yes. FMG aspirants will have access to separate video lectures designed specifically for their preparation.",
-  ],
-  [
-    "Is it suitable for first-time learning as well as revision?",
-    "Yes. Students can enter at different stages and use different layers of the learning system.",
-  ],
-  [
-    "Are notes and question practice included?",
-    "Course-specific inclusions should be clearly shown on each plan page before enrolment.",
-  ],
-  [
-    "How long do I get access?",
-    "Validity should be displayed clearly for every plan.",
-  ],
-  [
-    "Is the content updated?",
-    "The platform intends to update content when science, guidelines or examination patterns change.",
-  ],
-];
+const questions = categories.flatMap((category) =>
+  category.questions.map((question, index) => ({
+    ...question,
+    categoryTitle: index === 0 ? category.title : null,
+  })),
+);
 
 const TITLE_PHRASE = "Frequently Asked Questions";
 const TITLE_REPEAT = 8;
@@ -201,7 +178,7 @@ const Faqs = () => {
 
       <section className="faq-section" aria-label="Frequently Asked Questions">
         <div className="faq-list">
-          {questions.map(([question, answer], index) => {
+          {questions.map(({ id, question, answer, categoryTitle }, index) => {
             const isOpen = openIndex === index;
 
             const isHovered = hoverIndex === index;
@@ -209,6 +186,8 @@ const Faqs = () => {
             const isHighlighted = isOpen || isHovered;
 
             return (
+              <React.Fragment key={id}>
+                {categoryTitle && <h2 className="faq-category-title">{categoryTitle}</h2>}
               <article
                 className={`faq-item ${isHighlighted ? "hovered" : ""}`}
                 key={`faq-${index}`}
@@ -239,13 +218,14 @@ const Faqs = () => {
                     <div className="faq-answer-grid">
                       <div />
 
-                      <div className="faq-answer">{answer}</div>
+                      <div className="faq-answer">{answer.map((line, lineIndex) => <p key={lineIndex}>{line}</p>)}</div>
 
                       <div />
                     </div>
                   </div>
                 </div>
               </article>
+              </React.Fragment>
             );
           })}
         </div>

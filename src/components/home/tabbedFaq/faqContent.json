@@ -5,44 +5,30 @@
     "questions": [
       {
         "id": "1.1",
-        "question": "Is Pharmacology by Dr. GRG designed for NEET PG, INI-CET, and FMGE?",
+        "question": "Where can I download Pharmacology by Dr. GRG app?",
         "answer": [
-          "Yes! Pharmacology by Dr. GRG offers focused preparation options for NEET PG | INI-CET and FMGE, with learning and practice resources designed to support your preparation for these examinations."
+          "The Pharmacology by Dr. GRG app is not listed on Google Play as of now. For iPhone/iPad availability, please follow official announcements until an iOS listing is confirmed."
         ]
       },
       {
         "id": "1.2",
-        "question": "Are the video lectures available in English and Hinglish?",
+        "question": "What is the expected time gap between Android and iOS launches?",
         "answer": [
-          "Yes! Pharmacology by Dr. GRG offers language options in English and Hinglish, allowing you to learn in the language you are most comfortable with."
+          "A confirmed timeline between the Android and iOS launches is not available as of now. Please refer to official announcements for updates."
         ]
       },
       {
         "id": "1.3",
-        "question": "Are there separate lectures for FMGE aspirants?",
+        "question": "When will live classes, offline classes and Masterclass/recorded lectures begin or become available?",
         "answer": [
-          "Yes! The app offers a separate FMGE preparation option, with relevant learning resources tailored to FMGE aspirants."
+          "Please follow official Pharmacology by Dr. GRG announcements for updates regarding live sessions and offline classes. The schedule for these sessions has not been confirmed yet."
         ]
       },
       {
         "id": "1.4",
-        "question": "Can I use Pharmacology by Dr. GRG if I am starting from scratch?",
+        "question": "Will students have doubt-solving sessions with Dr. GRG?",
         "answer": [
-          "Yes! Pharmacology by Dr. GRG supports you at different stages of preparation, even if you are starting from scratch. Begin with the GRG Master Class to build your concepts from the ground up, use Power Pack Revision and The GRG Express for revision, and strengthen your preparation with the Master Class Q.Bank and GOGA Test Approach for practice and assessment."
-        ]
-      },
-      {
-        "id": "1.5",
-        "question": "Is Pharmacology by Dr. GRG enough to help me understand and revise Pharmacology?",
-        "answer": [
-          "Pharmacology by Dr. GRG brings learning and revision together on one platform. Start with the GRG Master Class to understand concepts, strengthen them with Power Pack Revision, and use The GRG Express for quick revision. The Master Class Q.Bank and GOGA Test Approach help you practise MCQs and assess your preparation for NEET PG, INI-CET, and FMGE."
-        ]
-      },
-      {
-        "id": "1.6",
-        "question": "Is the content updated?",
-        "answer": [
-          "The app brings together learning, revision, MCQ practice, and test-based assessment to support your exam preparation. Please refer to the app and official announcements for updates to content and learning resources."
+          "Please follow official Pharmacology by Dr. GRG announcements for updates section regarding doubt-solving sessions."
         ]
       }
     ]
@@ -53,44 +39,58 @@
     "questions": [
       {
         "id": "2.1",
-        "question": "What content is available in the Pharmacology by Dr. GRG app?",
+        "question": "What learning resources are available?",
         "answer": [
-          "The app includes five focused learning and practice resources:",
-          "•\tThe GRG Master Class: Detailed video lectures to build strong concepts.",
-          "•\tPower Pack Revision: Quick, conceptual, high-yield revision.",
-          "•\tThe GRG Express: Focused revision to help you revise fast and remember more.",
-          "•\tMaster Class Q.Bank: Concept-based MCQs and PYQs for practice.",
-          "•\tGOGA Test Approach: Attempt tests, analyse your performance, and improve."
+          "The learning resources include Power Pack Revision (PPR), GRG Express, GRG Master Class, Master Class Q. Bank and the GOGA Test Approach. Please check the current Plans section on the official website for available subscription plans, pricing and inclusions."
         ]
       },
       {
         "id": "2.2",
-        "question": "Are notes included with the Pharmacology by Dr. GRG plan?",
+        "question": "Will both live and recorded lectures be offered?",
         "answer": [
-          "The app offers two types of In App notes:",
-          "•\tUnannotated Notes",
-          "•\tAnnotated Notes"
+          "The available learning resources include GRG Master Class, Power Pack Revision (PPR), GRG Express, Master Class Q. Bank and GOGA Test Approach. The availability and schedule of live sessions should be confirmed through official announcements."
         ]
       },
       {
         "id": "2.3",
-        "question": "Are tests and Q.Bank questions included?",
+        "question": "Are PPR videos available in English or Hinglish?",
         "answer": [
-          "Yes. Yes Tests and Question Bank (Q.Bank) questions are included in the plan"
+          "Yes, the video lectures are available in English and Hinglish. The language options for each individual resource, including Power Pack Revision (PPR), should be confirmed on the relevant course page."
         ]
       },
       {
         "id": "2.4",
-        "question": "Are hardcopy books available?",
+        "question": "What are the prices and any additional charges for hardcopy books/notes, and how can students order them?",
         "answer": [
-          "Yes! Hardcopy books will be available separately for NEET PG | INI-CET and FMGE. Please visit the Books page on our website for details."
+          "Hardcopy books are not included in the subscription and must be purchased separately. Please check the official website or contact the support team for the current book prices, applicable charges and ordering procedure."
         ]
       },
       {
         "id": "2.5",
-        "question": "Are notes and question practice included in the app?",
+        "question": "When will hardcopy orders be dispatched/delivered?",
         "answer": [
-          "Yes! The app offers learning through In App notes, MCQ practice through the Master Class Q.Bank, and test-based assessment through the GOGA Test Approach. Access to specific resources may depend on your selected plan."
+          "The delivery timeline depends on the book order and dispatch status. After placing your order, please refer to the order confirmation or tracking details provided by the team. The current availability, dispatch date and estimated delivery timeline should be confirmed with the support team."
+        ]
+      },
+      {
+        "id": "2.6",
+        "question": "Will softcopy/class PDFs be available, including while students wait for hardcopy notes?",
+        "answer": [
+          "We will share the class PDF on Telegram before the class starts."
+        ]
+      },
+      {
+        "id": "2.7",
+        "question": "Will digital notes be available for iPads and tablets?",
+        "answer": [
+          "Please check the supported-device information for the app and the format of the study material before purchasing your subscription."
+        ]
+      },
+      {
+        "id": "2.8",
+        "question": "Can students download notes for offline access, save them to phone storage or outside the app, and print them?",
+        "answer": [
+          "Class PDFs will be shared on Telegram before the class starts. However, the availability of offline downloads, saving files outside the app and printing digital notes is not permitted."
         ]
       }
     ]
@@ -101,58 +101,86 @@
     "questions": [
       {
         "id": "3.1",
-        "question": "How long do I get access to the app?",
+        "question": "Does pre-booking require full payment upfront?",
         "answer": [
-          "Subscription validity depends on the plan you purchase. Please check the Plans section on the website for the available durations and validity details."
+          "Yes, Please visit the official Pharmacology by Dr. GRG website and select the available pre-booking or subscription option."
         ]
       },
       {
         "id": "3.2",
-        "question": "Do all plans include the same features?",
+        "question": "How can students pre-book or subscribe, and should they purchase through the website or app?",
         "answer": [
-          "All plans provide access to the app's learning resources. Please review the inclusions of your selected plan to confirm which features are available."
+          "To Pre-book or Subscribe please visit the official Pharmacology by Dr. GRG website."
         ]
       },
       {
         "id": "3.3",
-        "question": "What is the minimum plan duration?",
+        "question": "How can students pre-book from outside India?",
         "answer": [
-          "The minimum available plan duration is three months."
+          "Currently, OTP services are available only within India. Our team is working on enabling OTP services for international numbers as well. Students outside India who are unable to register should contact the official support team for assistance."
         ]
       },
       {
         "id": "3.4",
-        "question": "Can I purchase another plan before my current plan expires?",
+        "question": "Can a coupon code be reused for another plan purchased with the same registered mobile number?",
         "answer": [
-          "Yes! You can purchase a new plan before your current plan expires. The new plan will begin after your existing plan ends."
+          "No, once the coupon code is used with the registered details it cannot we used again with the same registered details."
         ]
       },
       {
         "id": "3.5",
-        "question": "Are discounts available on Pharmacology by Dr. GRG plans?",
+        "question": "What should students do if a coupon code is not accepted?",
         "answer": [
-          "Yes! Special pre-booking discounts are available for a limited period. Pre-booking begins on 11 October 2026 at 12:00 PM and ends on 21 October 2026 at 11:59 PM. Book during this period to avail the special pre-booking prices."
+          "Please check the coupon code's spelling, validity period, eligible subscription plan and applicable conditions. If the code still does not work, share a screenshot of the error and details of the plan you are trying to purchase with the official support team. Bonus eligibility will be verified against the applicable offer terms."
         ]
       },
       {
         "id": "3.6",
-        "question": "Can I transfer my plan to another person?",
+        "question": "What subscription plans are available and what are their prices?",
         "answer": [
-          "No. A Pharmacology by Dr. GRG subscription is personal and cannot be transferred, shared, or resold. Account sharing and unauthorised access are not permitted. Unusual login activity may result in account verification or access restrictions."
+          "Please check the current Plans section on the official website for the latest plan prices, validity and inclusions."
         ]
       },
       {
         "id": "3.7",
-        "question": "Can I cancel my plan or request a refund?",
+        "question": "Can I get an additional discount on the subscription price?",
         "answer": [
-          "As per the Pharmacology by Dr. GRG policy, plan cancellations and refunds are not allowed."
+          "The currently communicated offer is already discounted and includes a three-month bonus extension. No additional discount is available beyond the approved offer currently."
         ]
       },
       {
         "id": "3.8",
-        "question": "How do I check plan prices and inclusions?",
+        "question": "Does subscription validity begin on the pre-booking/payment date or on the app launch date?",
         "answer": [
-          "Visit the Plans section on the Pharmacology by Dr. GRG website to review subscription prices, validity, and plan inclusions before purchasing."
+          "Subscription validity is intended to begin from the app launch date, not the pre-booking date."
+        ]
+      },
+      {
+        "id": "3.9",
+        "question": "For iOS users, does validity begin at the Android launch or the iOS launch?",
+        "answer": [
+          "The iOS launch date and the timeline between the Android and iOS launches have not been confirmed. Please follow official Pharmacology by Dr. GRG announcements for updates."
+        ]
+      },
+      {
+        "id": "3.10",
+        "question": "Will eligible students receive an additional three months of validity?",
+        "answer": [
+          "The currently communicated offer includes a three-month bonus extension. Please check the applicable offer terms to confirm your eligibility."
+        ]
+      },
+      {
+        "id": "3.11",
+        "question": "When and how will the three-month bonus be reflected if a 6-month plan shows 6 instead of 9 months, or a 12-month plan shows 12 instead of 15 months?",
+        "answer": [
+          "If your purchase qualifies for the three-month bonus but the displayed subscription validity does not include it, please contact the support team with your registered mobile number and payment confirmation. The team will verify your eligibility and correct the displayed validity if required."
+        ]
+      },
+      {
+        "id": "3.12",
+        "question": "Can a student cancel or change an existing plan, such as upgrading from 12 to 24 months, and how is the payment adjusted?",
+        "answer": [
+          "Please contact the official support team to confirm whether your existing subscription can be changed or upgraded and whether any payment adjustment is possible."
         ]
       }
     ]
@@ -163,19 +191,106 @@
     "questions": [
       {
         "id": "4.1",
-        "question": "Can I use the app on multiple devices?",
+        "question": "Do students get access immediately after payment, and how do they start using lectures after purchase?",
         "answer": [
-          "Yes! You can access the Pharmacology by Dr. GRG app on up to two devices, but you can use it on only one device at a time."
+          "Please retain your payment confirmation and follow the official instructions for accessing your subscription. If you have completed the payment but cannot access your subscription or lectures, contact the support team with your registered mobile number and payment receipt."
         ]
       },
       {
         "id": "4.2",
-        "question": "How can I contact the Support Team?",
+        "question": "How can students confirm their payment, enrolment and active subscription if confirmation messages are missing or the purchase is not reflected in their account?",
         "answer": [
-          "You can contact our Support Team through any of the following channels:",
-          "•\tPhone: +91 8130036942",
-          "•\tWhatsApp: +91 8130036944",
-          "•\tEmail: support@pharmabydrgrg.com"
+          "Please check for the confirmation message or email received after payment. If you have not received confirmation or your enrolment is not reflected in your account, keep your payment receipt or transaction reference and contact the official support team to verify your enrolment."
+        ]
+      },
+      {
+        "id": "4.3",
+        "question": "Can students correct their registered email address or other registration details after pre-booking?",
+        "answer": [
+          "The registered mobile number cannot be changed because login access depends on the student's phone number. However, spelling mistakes in the registered email address can be corrected; the entire email address cannot be changed."
+        ]
+      },
+      {
+        "id": "4.4",
+        "question": "Should students register and purchase using the same mobile number and device they intend to use?",
+        "answer": [
+          "Please use the mobile number you intend to register your subscription with and review the device policy before logging in on your devices."
+        ]
+      },
+      {
+        "id": "4.5",
+        "question": "How can students in Oman, Saudi Arabia, Kenya or other countries register and log in if international OTPs fail? Is email registration available?",
+        "answer": [
+          "Currently, OTP services are available only within India. Our team is working on enabling OTP services for international numbers as well. Please contact the official support team if you are unable to register using an international mobile number."
+        ]
+      },
+      {
+        "id": "4.6",
+        "question": "What should students do if an OTP is incorrect or not received?",
+        "answer": [
+          "Please check that your country code and mobile number are correct, request a fresh OTP and enter only the latest code received. If OTP services are unavailable for your country or the issue persists, contact the official support team with a screenshot of the error and your country code."
+        ]
+      },
+      {
+        "id": "4.7",
+        "question": "What should students do if pre-booking buttons or the payment page do not work?",
+        "answer": [
+          "Please refresh the official website and try again once. If the issue persists, take a screenshot and contact the support team before making another payment. If money has already been debited, share your transaction reference so the payment status can be checked."
+        ]
+      },
+      {
+        "id": "4.8",
+        "question": "How should students handle failed UPI/card payments, and should they retry?",
+        "answer": [
+          "If your payment fails, first check whether the amount has been debited from your account. If money has been debited, retain your transaction reference and contact the support team to verify the payment status before attempting another payment. If the amount has not been debited, please contact support if the issue persists."
+        ]
+      },
+      {
+        "id": "4.9",
+        "question": "How can a student change or remove a registered device?",
+        "answer": [
+          "A subscription can be used on up to two registered devices, with access limited to one device at a time. For assistance with changing or removing a registered device, please contact the official support team."
+        ]
+      },
+      {
+        "id": "4.10",
+        "question": "Can a student start on Android and later switch to an iPad/iPhone?",
+        "answer": [
+          "Please follow official announcements for updates regarding iOS availability. The iOS launch date has not been confirmed, and students should check the supported-device information before planning to switch devices."
+        ]
+      },
+      {
+        "id": "4.11",
+        "question": "Can lectures be watched on the website, or only in the app?",
+        "answer": [
+          "Lectures can only we watched in the application"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "title": "5. Courses and Existing Users",
+    "questions": [
+      {
+        "id": "5.1",
+        "question": "How is the new Pharmacology by Dr. Gobind Rai Garg platform different from Cerebellum Pharmacology, and is the content new or the same?",
+        "answer": [
+          "The content will be updated and designed to meet the needs of all students. It will be suitable for students who wish to start their preparation from scratch, as well as those who have already cleared their basics and want to strengthen their preparation further. Our aim is to provide comprehensive and structured content to support students at every stage of their preparation."
+        ]
+      },
+      {
+        "id": "5.2",
+        "question": "Will Dr. GRG's older lectures on Cerebellum remain accessible after the new app launches?",
+        "answer": [
+          "No, it is an individual App so will have the new content only."
+        ]
+      },
+      {
+        "id": "5.3",
+        "question": "Is the course content suitable for second-year MBBS students?",
+        "answer": [
+          "It is not specified that subscription plan is for second-year MBBS students. However, students can start their preparation from the basics using GRG Master Class and use Power Pack Revision, GRG Express, Q. Bank and tests as needed."
         ]
       }
     ]
