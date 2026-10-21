@@ -210,6 +210,21 @@
   background: #f07127;
 }
 
+.fmge-pharma-app {
+  font-size: 20px;
+}
+
+.fmge-pharma-store {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.fmge-pharma-store img {
+  width: 180px;
+}
+
 .fmge-pharma-main-image-wrap {
   flex: 1 1 35%;
   align-self: flex-end;

@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./PharmacologyHeader.css";
+import AppStore from "../../../../assets/images//app.png";
+import PlayStore from "../../../../assets/images/ps1.png";
 
 const BG_IMAGE =
   "https://cdn.dribbble.com/userupload/49285896/file/55d25155713c2efd5948c4ec66d31371.png";
@@ -99,6 +101,24 @@ export default function PharmacologyHeader() {
                 Pre-Book Now →
               </a>
             </div>
+
+            {/* <h3 className="fmge-pharma-app">App is LIVE</h3>
+            <div className="fmge-pharma-store">
+              <a
+                href="https://apps.apple.com/in/app/corebtr/id6760164235"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={AppStore} alt="Download on App Store" />
+              </a>
+              <a
+                href="https://play.google.com/store/apps/details?id=com.corebtr"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={PlayStore} alt="Get it on Google Play" />
+              </a>
+            </div> */}
           </div>
 
           <div className="fmge-pharma-main-image-wrap">
