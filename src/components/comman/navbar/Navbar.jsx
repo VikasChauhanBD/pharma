@@ -335,6 +335,31 @@ function Navbar() {
           </div>
         </div>
       )}
+
+      <div className="price-marquee">
+        <div className="price-marquee-track">
+          <span>
+            <b>Important Notice:</b> App is launching on{" "}
+            <b>22nd October 2026</b> for <b>Android only</b>!
+          </span>
+          <span>
+            <b>Important Notice:</b> App is launching on{" "}
+            <b>22nd October 2026</b> for <b>Android only</b>!
+          </span>
+          <span>
+            <b>Important Notice:</b> App is launching on{" "}
+            <b>22nd October 2026</b> for <b>Android only</b>!
+          </span>
+          <span>
+            <b>Important Notice:</b> App is launching on{" "}
+            <b>22nd October 2026</b> for <b>Android only</b>!
+          </span>
+          <span>
+            <b>Important Notice:</b> App is launching on{" "}
+            <b>22nd October 2026</b> for <b>Android only</b>!
+          </span>
+        </div>
+      </div>
     </>
   );
 }
