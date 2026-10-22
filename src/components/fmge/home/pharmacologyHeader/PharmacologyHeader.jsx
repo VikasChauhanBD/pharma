@@ -92,33 +92,36 @@ export default function PharmacologyHeader() {
               >
                 Watch a Sample Class →
               </button>
-              <a
+              {/* <a
                 className="fmge-pharma-btn fmge-pharma-cta-2"
                 href="https://learn.pharmacologybydrgrg.com/login"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 Pre-Book Now →
-              </a>
+              </a> */}
             </div>
 
-            {/* <h3 className="fmge-pharma-app">App is LIVE</h3>
+            <h3 className="fmge-pharma-app">App is LIVE now for Android</h3>
+
             <div className="fmge-pharma-store">
               <a
-                href="https://apps.apple.com/in/app/corebtr/id6760164235"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img src={AppStore} alt="Download on App Store" />
-              </a>
-              <a
-                href="https://play.google.com/store/apps/details?id=com.corebtr"
+                href="https://play.google.com/store/apps/details?id=com.pharmacologybydrgrg"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <img src={PlayStore} alt="Get it on Google Play" />
               </a>
-            </div> */}
+              {/* <a
+                href="https://apps.apple.com/in/app/corebtr/id6760164235"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={AppStore} alt="Download on App Store" />
+              </a> */}
+            </div>
+
+            <h3 className="fmge-pharma-app">App is Coming Soon for IOS</h3>
           </div>
 
           <div className="fmge-pharma-main-image-wrap">

@@ -210,6 +210,21 @@
   background: #f07127;
 }
 
+.pg-pharma-app {
+  font-size: 20px;
+}
+
+.pg-pharma-store {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.pg-pharma-store img {
+  width: 180px;
+}
+
 .pg-pharma-main-image-wrap {
   flex: 1 1 35%;
   align-self: flex-end;
@@ -327,6 +342,10 @@
 
   .pg-pharma-btn {
     font-size: 16px;
+  }
+
+  .pg-pharma-store img {
+    width: 150px;
   }
 
   .pg-pharma-main-image {

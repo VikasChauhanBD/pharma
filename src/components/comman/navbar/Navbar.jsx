@@ -336,7 +336,7 @@ function Navbar() {
         </div>
       )}
 
-      <div className="price-marquee">
+      {/* <div className="price-marquee">
         <div className="price-marquee-track">
           <span>
             <b>Important Notice:</b> App is launching in <b>few hours</b> for{" "}
@@ -359,7 +359,7 @@ function Navbar() {
             <b>Android only</b> | For IOS coming soon
           </span>
         </div>
-      </div>
+      </div> */}
     </>
   );
 }

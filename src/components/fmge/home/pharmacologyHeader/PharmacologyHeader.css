@@ -344,6 +344,10 @@
     font-size: 16px;
   }
 
+  .fmge-pharma-store img {
+    width: 150px;
+  }
+
   .fmge-pharma-main-image {
     max-height: 50vh;
   }
