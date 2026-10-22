@@ -4,7 +4,6 @@
   box-sizing: border-box;
   width: 100%;
   min-height: clamp(320px, 34.3vw, 680px);
-  margin-top: 90px;
   padding: clamp(40px, 5vw, 70px) 6.5%;
   background-color: #e5f1fa;
   background-size: cover;

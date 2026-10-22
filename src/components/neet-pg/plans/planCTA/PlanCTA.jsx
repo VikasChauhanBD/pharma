@@ -13,10 +13,10 @@ const PlanCTA = () => {
         </p>
         <a
           // href="#"
-          href="https://learn.pharmacologybydrgrg.com/login"
+          href="https://play.google.com/store/apps/details?id=com.pharmacologybydrgrg"
           className="pg-plan-cta-button"
         >
-          Pre-Book Now
+          Download App Now
         </a>
       </div>
     </section>

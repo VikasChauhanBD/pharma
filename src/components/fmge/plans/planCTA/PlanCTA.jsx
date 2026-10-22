@@ -12,11 +12,11 @@ const PlanCTA = () => {
           Choose the plan that fits your exam goals and preparation timeline.
         </p>
         <a
-          href="https://learn.pharmacologybydrgrg.com/login"
+          href="https://play.google.com/store/apps/details?id=com.pharmacologybydrgrg"
           // href="#"
           className="fmge-plan-cta-button"
         >
-          Pre-Book Now
+          Download App Now
         </a>
       </div>
     </section>
