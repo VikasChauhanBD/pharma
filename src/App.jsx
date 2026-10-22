@@ -22,6 +22,7 @@ import SchedulesPage from "./pages/SchedulesPage";
 import ResultsPage from "./pages/ResultsPage";
 import BlogsPage from "./pages/BlogsPage";
 import FaqsPage from "./pages/FaqsPage";
+import AppDownloadPage from "./pages/AppDownloadPage";
 
 import NeetPgHomePage from "./pages/NeetPgHomePage";
 import NeetPgPlansPage from "./pages/NeetPgPlansPage";
@@ -140,6 +141,7 @@ function App() {
           <Route path="/results" element={<ResultsPage />} />
           <Route path="/blogs" element={<BlogsPage />} />
           <Route path="/faqs" element={<FaqsPage />} />
+          <Route path="/download-app" element={<AppDownloadPage />} />
 
           {/* ----------- Neet PG Pages ---------------- */}
 
