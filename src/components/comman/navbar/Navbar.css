@@ -606,6 +606,30 @@
   }
 }
 
+.navbar-right > a.navbar-cta {
+  margin-left: 6px;
+  padding: 0 18px;
+  background: #004d7a;
+  color: #ffffff;
+}
+
+.navbar-right > a.navbar-cta:hover {
+  background: #003a5c;
+  color: #ffffff;
+}
+
+.mobile-menu > div > a.mobile-cta {
+  justify-content: center;
+  margin-top: 6px;
+  background: #004d7a !important;
+  color: #ffffff !important;
+}
+
+.mobile-menu > div > a.mobile-cta:hover {
+  background: #003a5c !important;
+  color: #ffffff !important;
+}
+
 /* ---------------------------------- Responsive ------------------------- */
 
 @media (max-width: 1150px) {

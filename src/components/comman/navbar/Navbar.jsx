@@ -16,6 +16,7 @@ const PROGRAMS = {
 };
 const STORAGE_KEY = "selectedProgram";
 const COURSE_POPUP_KEY = "coursePopupShown";
+const LOGIN_URL = "https://learn.pharmacologybydrgrg.com/login";
 const getInitialProgram = () => {
   const path = window.location.pathname;
   if (path.startsWith("/course/fmge")) return "FMGE";
@@ -216,6 +217,14 @@ function Navbar() {
             <a href="/about">About Dr. GRG</a>
             <a href={links.plans}>Plans</a>
             <a href={links.books}>Books</a>
+            <a
+              href={LOGIN_URL}
+              className="navbar-cta"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Login | SignUp
+            </a>
           </div>
           <button
             type="button"
@@ -296,6 +305,21 @@ function Navbar() {
             >
               <a href={links.books} onClick={closeMobileMenu}>
                 Books
+              </a>
+            </div>
+            <div
+              ref={(el) => {
+                mobileItemsRef.current[5] = el;
+              }}
+            >
+              <a
+                href={LOGIN_URL}
+                className="mobile-cta"
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={closeMobileMenu}
+              >
+                Login | SignUp
               </a>
             </div>
           </div>
