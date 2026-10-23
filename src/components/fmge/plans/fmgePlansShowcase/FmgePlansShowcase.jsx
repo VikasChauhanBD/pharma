@@ -219,8 +219,7 @@ function FmgePlansShowcase() {
               once: true,
             },
             onUpdate: () => {
-              el.textContent =
-                "₹" + Math.round(counter.value).toLocaleString("en-IN");
+              el.textContent = "₹" + Math.round(counter.value);
             },
           });
         });
