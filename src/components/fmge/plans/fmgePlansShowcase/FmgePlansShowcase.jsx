@@ -31,21 +31,21 @@ const liveBullets = [
 const plans = [
   {
     validity: "6 Months",
-    original: "₹4,598",
-    special: "₹3,148",
-    prebooking: "₹2,398",
+    original: "₹ 4598",
+    special: "₹ 3148",
+    prebooking: "₹ 2398",
   },
   {
     validity: "12 Months",
-    original: "₹5,598",
-    special: "₹3,678",
-    prebooking: "₹2,998",
+    original: "₹ 5598",
+    special: "₹ 3678",
+    prebooking: "₹ 2998",
   },
   {
     validity: "24 Months",
-    original: "₹6,598",
-    special: "₹4,728",
-    prebooking: "₹3,498",
+    original: "₹ 6598",
+    special: "₹ 4728",
+    prebooking: "₹ 3498",
   },
 ];
 const toNumber = (price) => Number(price.replace(/[^\d]/g, ""));
@@ -433,7 +433,7 @@ function FmgePlansShowcase() {
           </div>
           <div className="fmge-showcase-price-footer fmge-showcase-center">
             <a
-              href="https://learn.pharmacologybydrgrg.com"
+              href="https://learn.pharmacologybydrgrg.com/subscription/packages/01a12662-013a-72cf-a7a7-fdfb72be7835"
               target="_blank"
               className="fmge-showcase-cta"
             >
