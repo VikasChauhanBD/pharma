@@ -33,19 +33,19 @@ const plans = [
     validity: "6 Months",
     original: "₹4,599",
     special: "₹3,149",
-    prebooking: "₹1,999",
+    prebooking: "₹2,399",
   },
   {
     validity: "12 Months",
     original: "₹5,599",
     special: "₹3,679",
-    prebooking: "₹2,499",
+    prebooking: "₹2,999",
   },
   {
     validity: "24 Months",
     original: "₹6,599",
     special: "₹4,729",
-    prebooking: "₹2,999",
+    prebooking: "₹3,499",
   },
 ];
 const toNumber = (price) => Number(price.replace(/[^\d]/g, ""));
@@ -357,15 +357,15 @@ function PgPlansShowcase() {
         <div className="pg-showcase-block">
           <div className="pg-showcase-price-header pg-showcase-center">
             <span className="pg-showcase-eyebrow">PLANS &amp; PRICING</span>
-            <p className="pg-showcase-offer">
+            {/* <p className="pg-showcase-offer">
               <span>
                 Pre-booking opens on 11 October 2026 at 12:00 PM and is valid
                 for a limited time period only!
               </span>
-            </p>
-            <p className="pg-showcase-price-note">
+            </p> */}
+            {/* <p className="pg-showcase-price-note">
               These exclusive pre-booking prices won’t be available again.
-            </p>
+            </p> */}
             <p className="pg-showcase-price-imp">
               Please note that your plan validity will begin from the app launch
               date.
@@ -412,7 +412,7 @@ function PgPlansShowcase() {
                 </div>
                 <div className="pg-showcase-prebook">
                   <span className="pg-showcase-prebook-label">
-                    Pre-Booking Offer
+                    Launch Offer
                   </span>
                   <span
                     className="pg-showcase-count pg-showcase-prebook-value"
@@ -427,14 +427,15 @@ function PgPlansShowcase() {
               </article>
             ))}
           </div>
-          {/* <div className="pg-showcase-price-footer pg-showcase-center">
+          <div className="pg-showcase-price-footer pg-showcase-center">
             <a
               href="https://learn.pharmacologybydrgrg.com"
+              target="_blank"
               className="pg-showcase-cta"
             >
-              Pre Book Now
+              Subscribe Now
             </a>
-          </div> */}
+          </div>
         </div>
       </div>
     </section>

@@ -33,19 +33,19 @@ const plans = [
     validity: "6 Months",
     original: "₹4,598",
     special: "₹3,148",
-    prebooking: "₹1,998",
+    prebooking: "₹2,398",
   },
   {
     validity: "12 Months",
     original: "₹5,598",
     special: "₹3,678",
-    prebooking: "₹2,498",
+    prebooking: "₹2,998",
   },
   {
     validity: "24 Months",
     original: "₹6,598",
     special: "₹4,728",
-    prebooking: "₹2,998",
+    prebooking: "₹3,498",
   },
 ];
 const toNumber = (price) => Number(price.replace(/[^\d]/g, ""));
@@ -359,15 +359,15 @@ function FmgePlansShowcase() {
         <div className="fmge-showcase-block">
           <div className="fmge-showcase-price-header fmge-showcase-center">
             <span className="fmge-showcase-eyebrow">PLANS &amp; PRICING</span>
-            <p className="fmge-showcase-offer">
+            {/* <p className="fmge-showcase-offer">
               <span>
                 Pre-booking opens on 11 October 2026 at 12:00 PM and is valid
                 for a limited time period only!
               </span>
-            </p>
-            <p className="fmge-showcase-price-note">
+            </p> */}
+            {/* <p className="fmge-showcase-price-note">
               These exclusive pre-booking prices won’t be available again.{" "}
-            </p>
+            </p> */}
             <p className="fmge-showcase-price-imp">
               Please note that your plan validity will begin from the app launch
               date.
@@ -416,7 +416,7 @@ function FmgePlansShowcase() {
                 </div>
                 <div className="fmge-showcase-prebook">
                   <span className="fmge-showcase-prebook-label">
-                    Pre-Booking Offer
+                    Launch Offer
                   </span>
                   <span
                     className="fmge-showcase-count fmge-showcase-prebook-value"
@@ -431,14 +431,15 @@ function FmgePlansShowcase() {
               </article>
             ))}
           </div>
-          {/* <div className="fmge-showcase-price-footer fmge-showcase-center">
+          <div className="fmge-showcase-price-footer fmge-showcase-center">
             <a
               href="https://learn.pharmacologybydrgrg.com"
+              target="_blank"
               className="fmge-showcase-cta"
             >
-              Pre Book Now
+              Subscribe Now
             </a>
-          </div> */}
+          </div>
         </div>
       </div>
     </section>
